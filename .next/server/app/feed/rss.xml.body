@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ivan Goncharov</title>
+        <link>https://nextfolio-template.vercel.app/</link>
+        <description>Персональная страничка Python разработчика Ивана Гончарова.</description>
+        <lastBuildDate>Sat, 09 Nov 2024 06:23:14 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <copyright>All rights reserved 2024, Ivan Goncharov</copyright>
+        <atom:link href="https://nextfolio-template.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Математика это очень интересно, если ее...]]></title>
+            <link>https://nextfolio-template.vercel.app/blog/collatz-hypothesis</link>
+            <guid>https://nextfolio-template.vercel.app/blog/collatz-hypothesis</guid>
+            <pubDate>Tue, 13 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Небольшой рассказ о том как я делаю дела.]]></description>
+            <category>Configuration</category>
+            <category>Web development</category>
+        </item>
+        <item>
+            <title><![CDATA[Алгоритм Евклида - как есть ... ]]></title>
+            <link>https://nextfolio-template.vercel.app/blog/euclidian-algo</link>
+            <guid>https://nextfolio-template.vercel.app/blog/euclidian-algo</guid>
+            <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Найти НОД, чтоб никогда не терять.]]></description>
+            <category>Такие знания всегда нужны!</category>
+        </item>
+    </channel>
+</rss>

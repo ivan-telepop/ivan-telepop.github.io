@@ -1,0 +1,12 @@
+{
+  "/og/route": "app/og/route.js",
+  "/page": "app/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/photos/page": "app/photos/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/feed/[format]/route": "app/feed/[format]/route.js"
+}
