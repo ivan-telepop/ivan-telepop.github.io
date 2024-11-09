@@ -27,22 +27,22 @@ export default function Photos() {
           {
             src: "/photos/pic2.jpg",
             alt: "djing",
-            href: "https://",
+            href: "https://github.com/ivanIStereotekk",
           },
           {
             src: "/photos/pic3.jpg",
             alt: "Leto",
-            href: "https://",
+            href: "https://github.com/ivanIStereotekk",
           },
           {
             src: "/photos/ivan.png",
             alt: "i'm",
-            href: "https://",
+            href: "https://github.com/ivanIStereotekk",
           },
           {
             src: "/photos/tree.png",
-            alt: "Colosseum",
-            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "tree",
+            href: "https://github.com/ivanIStereotekk",
           },
         ]}
       />
