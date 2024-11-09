@@ -1,8 +1,8 @@
 export const metaData = {
   baseUrl: "https://nextfolio-template.vercel.app/",
   title: "Ivan Goncharov",
-  name: "Developer",
-  ogImage: "/opengraph-image.png",
+  name: "Python Developer - Ivan Goncharov",
+  ogImage: "/ivan-goncharov.png",
   description:
     "Персональная страничка Python разработчика Ивана Гончарова.",
 };
