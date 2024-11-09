@@ -4,7 +4,8 @@ import { metaData } from "app/config";
 
 export function GET(request: Request) {
   let url = new URL(request.url);
-  let title = url.searchParams.get("title") || metaData.title;
+  let title =  metaData.title; 
+  //url.searchParams.get("title") ||
 
   return new ImageResponse(
     (
