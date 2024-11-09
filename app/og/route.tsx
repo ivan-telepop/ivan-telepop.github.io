@@ -3,7 +3,7 @@
 
 
 
-export default function DefaultPage(){
+export  function GET(){
     return<>
     "Nothing is here !"
     </>
