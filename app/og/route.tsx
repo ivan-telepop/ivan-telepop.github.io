@@ -1,6 +1,13 @@
 // import { ImageResponse } from "next/og";
 // import { metaData } from "app/config";
 
+
+
+export default function DefaultPage(){
+    return<>
+    "Nothing is here !"
+    </>
+}
 // export function GET(request: Request) {
 //   let url = new URL(request.url);
 //   let title = url.searchParams.get("title") || metaData.title;
