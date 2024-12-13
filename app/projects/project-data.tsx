@@ -7,24 +7,24 @@ export interface Project {
   
   export const projects: Project[] = [
     {
-      title: "Жесты рук, Ableton Live, MIDI, Компьютерное зрение.",
+      title: "Жесты рук, Ableton Live, MIDI, Компьютерное зрение. /кликабельно/",
       year: 2023,
       description:
         "Время от времени я пробую разные технологии. Тут я переобразовал координаты пальцев в MIDI сигнал. Сигнал к аблетону, и это звучит! Конечно проект требует работы, развития, но все же на мой взгляд очень интересный проект. Ну или прототип проекта. Буду продолжать его по мере возможности!",
       url: "https://youtu.be/wMKDv2Fauus",
     },
     {
-      title: "Следующий проект",
+      title: "Данные полученые с Computer Brain Interface >> в MIDI... /Emotive/",
       year: 2022,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-      url: "https://example.com/",
+        "Идея получения сигналов с интерфейса \"мозг-компьютер\" мне очень нравится, и в этом направлении много интересных проектов. Думаю Emotiv самый яркий представитель в на этом рынке. В обозримом будущем мечтаю снимать сигналы с кортекса и переобразовывать их в MIDI, хотя технология не граничивается только этим.",
+      url: "https://www.emotiv.com/",
     },
     {
-      title: "Еще один очень интересный",
+      title: "Granular Microservices - Разделяй и влавствуй !",
       year: 2021,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-      url: "https://example.com/",
+        "Возможно кто то уже приходил к такой концепции разработки микросервисов, уверен я не первый. Абсолютно уверен, дробить монолит имеет смысл, и вот почему...",
+      url: "http://ivanistereotekk.github.io/blog/granular-micro",
     },
   ];
