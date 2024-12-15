@@ -10,7 +10,7 @@ export const metaData = {
 export const socialLinks = {
   twitter: "https://x.com/ivanstereotekk",
   github: "https://github.com/ivanIStereotekk",
-  instagram: "https://www.instagram.com/ivanstereotekk",
+  instagram: "https://www.instagram.com/ivan_stereotekk?igsh=a2V2OHc4dWRza3Fp",
   linkedin: "https://www.linkedin.com/in/ivan-goncharov-422529243/",
   email: "mailto:ivan.stereotekk@gmail.com",
   soundcloud: "https://soundcloud.com/ivanstereotekk"
