@@ -44,6 +44,15 @@ export default function Page() {
           </a>
           .
         </p>
+
+        <p>
+          Telegram Бот консультант по гражданским правам {" "}
+          <a href="https://t.me/ZakonPravobot" target="_blank">
+            ЗаконПодскажет
+          </a>
+          .
+        </p>
+
       </div>
     </section>
   );
