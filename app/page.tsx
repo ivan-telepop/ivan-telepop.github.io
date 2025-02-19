@@ -6,7 +6,7 @@ export default function Page() {
     <section>
       <a href={socialLinks.twitter} target="_blank">
         <Image
-          src="/main-page.jpg"
+          src="/main-a-pic.png"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
@@ -22,13 +22,22 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Добро пожаловать ко мне на страницу ! <br/>
-     
-          Это место где я пишу о профессии бекенд разработчика, публикую интересное, и просто место где я могу выкладывать свои мысли и идеи.<br/>
+Я занимаюсь разработкой серверных приложений на Python, специализируюсь на создании REST API для бизнеса. 
+У меня 4.5 лет опыта в коммерческой разработке, работал в нескольких компаниях, решая задачи по построению и оптимизации backend-систем.<br/>
+
+Мой основной стек: Python, FastAPI, Docker, MQ, Relational Databases, SQLAlchemy. 
+Хорошо понимаю архитектуру веб-приложений, работаю с базами данных, настраиваю окружение и деплой. 
+В прошлом также имел опыт работы сетевым инженером, что помогает мне лучше разбираться в инфраструктуре и оптимизации распределенных сервисов.
+
+Предпочитаю чистый, поддерживаемый код и всегда стараюсь писать его с учетом лучших практик. Постоянно учусь, 
+изучаю новые технологии и инструменты, чтобы быть эффективнее в работе. Спокойный, исполнительный, 
+дружелюбный – умею работать как самостоятельно, так и в команде.
+
+Если вам нужен надежный backend-разработчик, буду рад пообщаться!
         </p>
         <p>
-          В качестве приятного хобби  у меня есть увлечение диджеингом и я пишу электронную 
-            <a href="https://open.spotify.com/album/72Ak2ehzCCfhnkccA0HPAV"> музыку.</a> <br/>
+          Ллюблю путешествовать и  
+            <a href="https://www.beatport.com/it/artist/ivan-stereotekk/394712?srsltid=AfmBOor9Mo0o5s1YXIV6x-17HPSoDmSPpz8dUq6SWTFbA37OIGQK0oYs"> музыку.</a> <br/>
 
         </p>
     
