@@ -25,15 +25,21 @@ export default function Photos() {
             href: "https://mixcult.bandcamp.com/album/self-object-id-ep",
           },
           {
-            src: "/photos/pic2.jpg",
+            src: "/photos/vs-code.png",
             alt: "djing",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/photos/pic3.jpg",
+            src: "/photos/iv-g.png",
             alt: "Leto",
             href: "https://github.com/ivanIStereotekk",
           },
+          {
+            src: "/photos/bf-algo.png",
+            alt: "Leto",
+            href: "https://github.com/ivanIStereotekk",
+          },
+          
           {
             src: "/photos/ivan.png",
             alt: "i'm",
@@ -54,6 +60,8 @@ export default function Photos() {
           { src: "/photos/tree.png", alt: "Tree" },
           { src: "/photos/pic1.jpg", alt: "Studio" },
           { src: "/photos/ivan.png", alt: "Nice Guy" },
+          { src: "/photos/ableton.png", alt: "Nice Guy" },
+          { src: "/photos/vs-code.png", alt: "Nice Guy" },
         ]}
       />
 
@@ -61,9 +69,9 @@ export default function Photos() {
         columns={4}
         images={[
           { src: "/photos/pic1.jpg", alt: "Roman columns" },
-          { src: "/photos/pic2.jpg", alt: "Big Ben" },
+          { src: "/photos/iv-g.png", alt: "Big Ben" },
           { src: "/photos/dog.jpg", alt: "Dog" },
-          { src: "/photos/pic3.jpg", alt: "EQ" },
+          { src: "/photos/vs-code.png", alt: "EQ" },
           { src: "/photos/ivan.png", alt: "Glases" },
           { src: "/photos/tree.png", alt: "Tree" },
         ]}
