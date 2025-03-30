@@ -48,6 +48,10 @@ export default function Page() {
           <a href="https://hh.ru/resume/eeb0fec4ff0ded24490039ed1f73365749456d">HeadHunter</a>.
         </p>
         <p>
+          English Version of my {" "}
+          <a href="https://drive.google.com/file/d/14hrPrtNO1WzljNjQ6xqBar09hccb8aGD/view?usp=sharing">Curriculum Vitae - C.V.</a>.
+        </p>
+        <p>
           Если вам понадобится мой репозиторий в{" "}
           <a href="https://github.com/ivanIStereotekk" target="_blank">
             GitHub
