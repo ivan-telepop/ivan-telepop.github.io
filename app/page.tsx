@@ -49,7 +49,7 @@ export default function Page() {
         </p>
         <p>
           English Version of my {" "}
-          <a href="https://drive.google.com/file/d/14hrPrtNO1WzljNjQ6xqBar09hccb8aGD/view?usp=sharing">Curriculum Vitae - C.V.</a>.
+          <a href="https://drive.google.com/file/d/1b8Y5ub_Rqg3HTjQ2l6RipIxv7gqQOlpE/view?usp=drive_link">Curriculum Vitae - C.V.</a>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
