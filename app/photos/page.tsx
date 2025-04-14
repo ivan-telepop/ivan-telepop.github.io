@@ -26,7 +26,7 @@ export default function Photos() {
           },
           {
             src: "/photos/vs-code.png",
-            alt: "djing",
+            alt: "code",
             href: "https://github.com/ivanIStereotekk",
           },
           {
@@ -36,13 +36,13 @@ export default function Photos() {
           },
           {
             src: "/photos/bf-algo.png",
-            alt: "Leto",
+            alt: "Graph",
             href: "https://github.com/ivanIStereotekk",
           },
           
           {
-            src: "/photos/ivan.png",
-            alt: "i'm",
+            src: "/photos/tb-03.jpg",
+            alt: "Tbilisi",
             href: "https://github.com/ivanIStereotekk",
           },
           {
@@ -59,9 +59,10 @@ export default function Photos() {
           { src: "/photos/dog.jpg", alt: "Posing" },
           { src: "/photos/tree.png", alt: "Tree" },
           { src: "/photos/pic1.jpg", alt: "Studio" },
-          { src: "/photos/ivan.png", alt: "Nice Guy" },
-          { src: "/photos/ableton.png", alt: "Nice Guy" },
-          { src: "/photos/vs-code.png", alt: "Nice Guy" },
+          { src: "/photos/ew-01.jpg", alt: "Ivan" },
+          { src: "/photos/ableton.png", alt: "Ableton" },
+          { src: "/photos/vs-code.png", alt: "VS-Code" },
+          { src: "/photos/fl-02.jpg", alt: "Plane" },
         ]}
       />
 
@@ -72,7 +73,7 @@ export default function Photos() {
           { src: "/photos/iv-g.png", alt: "Big Ben" },
           { src: "/photos/dog.jpg", alt: "Dog" },
           { src: "/photos/vs-code.png", alt: "EQ" },
-          { src: "/photos/ivan.png", alt: "Glass" },
+          { src: "/photos/ivan.jpg", alt: "Glass" },
           { src: "/photos/tree.png", alt: "Tree" },
         ]}
       />
