@@ -69,10 +69,10 @@ export default function Photos() {
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/pic1.jpg", alt: "Roman columns" },
-          { src: "/photos/iv-g.png", alt: "Big Ben" },
+          { src: "/photos/pic1.jpg", alt: "***" },
+          { src: "/photos/iv-g.png", alt: "me" },
           { src: "/photos/dog.jpg", alt: "Dog" },
-          { src: "/photos/vs-code.png", alt: "EQ" },
+          { src: "/photos/vs-code.png", alt: "eq" },
           { src: "/photos/ivan.jpg", alt: "Glass" },
           { src: "/photos/tree.png", alt: "Tree" },
         ]}
