@@ -1,0 +1,146 @@
+---
+title: "Ollama на Intel Core i7 - Вызов функций с помощью AI  "
+publishedAt: "2025-04-20"
+summary: "LLM на localhost"
+tags: "ollama,python,tool_calls,function calls"
+---
+
+
+
+Представьте, что у вас есть чат-бот в Telegram или  на сайте. 
+
+Люди пишут ему: 
+
+«Хочу купить 3 пачки гвоздей и 2 игрушки для кошки». 
+Вместо того чтобы просто «понять» сообщение, бот сам вызывает нужную функцию, создает заказ и 
+даже считает общую сумму, выкатывает счет — всё без участия человека. 
+Или, например, бухгалтер задаёт голосом: «Сколько нужно доплатить, если я уже отдал 10000, а должен был 13200?» — 
+И ваш бот ассистент моментально даёт ответ... А бонусом высылает счет, накладную или что там еще нужно..?
+Это и есть tool calls — когда искусственный интеллект не просто разговаривает с клиентами, а сам инициирует выполнение нужного кода. 
+Я уже делал подобное на API open.ai, но заставить подобное приложение у себя на компьютере еще не пробовал. 
+В общем решил попробовать подняв Ollama на своём Mac.
+
+Что такое Ollama?
+
+
+Ollama — это среда, песочница или простой способ запускать локальные языковые модели (типа ChatGPT) прямо у себя на компьютере. 
+Не нужно никаких серверов или облаков — всё работает у вас на машине. Удобно, особенно если хочется быстро поэкспериментировать.
+
+
+#### Установка:
+
+
+Установил Ollama себе на мак:
+
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+Запустил модель:
+
+Я выбрал Llama 3.2:
+
+```
+ollama run llama3.2
+
+```
+
+Инициировал проект с помощью uv. Установил Python-библиотеку для работы с Ollama:
+
+```
+uv pip install ollama
+```
+#### Простой пример tool calls
+
+Теперь — самая интересная часть. Я написал небольшой код, который подключает две простые функции: сложение и вычитание. 
+А на вход даются аргументы которые ИИ может извлекать из текста сообщения.
+И дал модели понять, когда именно можно их использовать.
+Функции очень простые, чисто для эксперимента. В реальном проекте они могут быть какие угодно. 
+Это уже вопрос вашей фантазии и нужд вашего бизнеса.
+
+Вот сам код:
+```
+
+from ollama import ChatResponse, chat
+
+# Рабочий пример функций для вызова tool calls
+def add_two_numbers(a: int, b: int) -> int:
+  """Сложение аргументов a: int  b: int """  
+  return int(a) + int(b)
+
+def subtract_two_numbers(a: int, b: int) -> int:
+"""Деление аргументов a: int  b: int """
+  return int(a) - int(b)
+
+# Описание доступных инструментов
+subtract_two_numbers_tool = {
+  'type': 'function',
+  'function': {
+    'name': 'subtract_two_numbers',
+    'description': 'Вычитает одно целое число из другого. Используй эту функцию только в том случае, если пользователь явно просит вычесть два числа или вычислить разницу.',
+    'parameters': {
+      'type': 'object',
+      'required': ['a', 'b'],
+      'properties': {
+        'a': {'type': 'integer', 'description': 'The first number'},
+        'b': {'type': 'integer', 'description': 'The second number'},
+      },
+    },
+  },
+}
+
+add_two_numbers_tool = {
+  'type': 'function',
+  'function': {
+    'name': 'add_two_numbers',
+    'description': 'Performs simple addition only when the user explicitly asks to add or sum two integers.',
+    'parameters': {
+      'type': 'object',
+      'required': ['a', 'b'],
+      'properties': {
+        'a': {'type': 'integer', 'description': 'The first number to be added.'},
+        'b': {'type': 'integer', 'description': 'The second number to be added.'},
+      },
+    },
+  },
+}
+
+all_tools = dict()
+all_tools.update(subtract_two_numbers_tool)
+all_tools.update(add_two_numbers_tool)
+
+# Пример общения с моделью
+messages = [
+    {"role": "system", "content": "Only use tools when the user clearly asks for a specific arithmetic operation (addition or subtraction). Do not call tools unless the intent is explicitly stated."},
+    # Пример очень простого вопроса к боту
+    {'role': 'user', 'content': 'Сколько будет семь прибавить на двенадцать ?'}
+]
+
+available_functions = {
+  'add_two_numbers': add_two_numbers,
+  'subtract_two_numbers': subtract_two_numbers,
+}
+
+response: ChatResponse = chat(
+  'llama3.2',
+  messages=messages,
+  tools=[all_tools],
+  stream=False,
+)
+
+if response.message.tool_calls:
+  for tool in response.message.tool_calls:
+    if function_to_call := available_functions.get(tool.function.name):
+      print('Вызвана функция:', tool.function.name)
+      print('Аргументы функции:', tool.function.arguments)
+      output = function_to_call(**tool.function.arguments)
+      print('Вывод:', output)
+    else:
+      print('Вызываемая функция', tool.function.name, 'не найдена')
+
+```
+
+Когда я запустил этот скрипт, модель правильно поняла: «Семь прибавить на двенадцать» — это команда на сложение. Она сама вызвала нужную функцию и выдала ответ. Всё без моего участия.
+
+#### Итог:
+Теперь можно расширять этот подход: подключить функции для создания счетов, генерации PDF-документов, работы с базой данных — всё это будет инициироваться обычным человеческим языком.
+Такой вот эксперимент...
