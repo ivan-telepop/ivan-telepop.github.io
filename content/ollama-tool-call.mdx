@@ -113,7 +113,7 @@ all_tools.update(add_two_numbers_tool)
 messages = [
     {"role": "system", "content": "Only use tools when the user clearly asks for a specific arithmetic operation (addition or subtraction). Do not call tools unless the intent is explicitly stated."},
     # Пример очень простого вопроса к боту
-    {'role': 'user', 'content': 'Сколько будет семь прибавить на двенадцать ?'}
+    {'role': 'user', 'content': 'Сколько будет семь умножить на двенадцать ?'}
 ]
 
 available_functions = {
@@ -145,3 +145,6 @@ if response.message.tool_calls:
 #### Итог:
 Теперь можно расширять этот подход: подключить функции для создания счетов, генерации PDF-документов, работы с базой данных — всё это будет инициироваться обычным человеческим языком.
 Такой вот эксперимент...
+
+Ollama docs:
+<https://ollama.com/blog/tool-support>
