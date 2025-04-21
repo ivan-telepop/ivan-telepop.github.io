@@ -43,13 +43,12 @@ export default function Page() {
         </p>
     
         <p>
-          Если у вас возникла необходимость ознакомится с моим резюме, то по этой ссылке вы найдете мою 
-          страничку в{" "}
-          <a href="https://hh.ru/resume/eeb0fec4ff0ded24490039ed1f73365749456d">HeadHunter</a>.
+          Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
+          <a href="https://drive.google.com/file/d/1CPQzTcWxm3-LLjKrL7MQgzHSkP5WP_qG/view?usp=sharing">РЕЗЮМЕ</a>.
         </p>
         <p>
           English Version of my {" "}
-          <a href="https://drive.google.com/file/d/1b8Y5ub_Rqg3HTjQ2l6RipIxv7gqQOlpE/view?usp=drive_link">Curriculum Vitae - C.V.</a>.
+          <a href="https://drive.google.com/file/d/1AsXEz4iC4nUxQcfjERGQXbm1RKqtnHHB/view?usp=sharing">Curriculum Vitae (CV).</a>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
