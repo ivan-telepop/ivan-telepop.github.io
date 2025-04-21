@@ -73,7 +73,7 @@ export default function Photos() {
           { src: "/photos/iv-g.png", alt: "me" },
           { src: "/photos/dog.jpg", alt: "Dog" },
           { src: "/photos/vs-code.png", alt: "eq" },
-          { src: "/photos/ivan.jpg", alt: "Glass" },
+          { src: "/photos/fl-02.jpg", alt: "Plane" },
           { src: "/photos/tree.png", alt: "Tree" },
         ]}
       />
