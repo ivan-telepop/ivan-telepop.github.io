@@ -38,7 +38,7 @@ export default function Page() {
         </p>
         <p>
           Люблю путешествовать и  
-            <a href="https://www.beatport.com/it/artist/ivan-stereotekk/394712?srsltid=AfmBOor9Mo0o5s1YXIV6x-17HPSoDmSPpz8dUq6SWTFbA37OIGQK0oYs"> музыку.</a> <br/>
+            <a href="https://mixcult.bandcamp.com/album/self-object-id-ep"> музыку.</a> <br/>
 
         </p>
     
@@ -59,7 +59,7 @@ export default function Page() {
         </p>
 
         <p>
-          Telegram Бот консультант по гражданским правам {" "}
+          Telegram Бот ИИ (RAG) консультант по гражданским правам  {" "}
           <a href="https://t.me/ZakonPravobot" target="_blank">
             ЗаконПодскажет
           </a>
