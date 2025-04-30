@@ -44,11 +44,11 @@ export default function Page() {
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <a href="https://drive.google.com/file/d/1CPQzTcWxm3-LLjKrL7MQgzHSkP5WP_qG/view?usp=sharing">РЕЗЮМЕ</a>.
+          <a href="https://drive.google.com/file/d/1kZa_vzmw8_OelB4wzrvNf51_-KX3pMh-/view?usp=sharing">РЕЗЮМЕ</a>.
         </p>
         <p>
           English Version of my {" "}
-          <a href="https://drive.google.com/file/d/1AsXEz4iC4nUxQcfjERGQXbm1RKqtnHHB/view?usp=sharing">Curriculum Vitae (CV).</a>.
+          <a href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</a>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
