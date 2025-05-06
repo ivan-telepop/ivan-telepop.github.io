@@ -16,11 +16,18 @@ export default function Page() {
         />
       </a>
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Привет, я Иван Гончаров!
-      </h1>
+      
 
       <div className="prose prose-neutral dark:prose-invert">
+
+      <h3 className="uppercase">Cайты и лендинги на React / Next.js </h3>
+<a href="https://t.me/ewanG808">telegram: @ewanG808</a>
+<h3>Готов заниматься вашими IT проектами!</h3><br/>
+
+<br/>
+<h1 className="mb-8 text-2xl font-medium tracking-tight">
+        Привет, я Иван Гончаров!
+      </h1>
 
 Я занимаюсь разработкой серверных приложений на Python, специализируюсь на создании REST API для бизнеса. 
 Имею опыт в коммерческой разработке, работал в проектах, решая задачи по построению и оптимизации backend-систем и инфраструктуры.<br/>
@@ -38,7 +45,7 @@ export default function Page() {
 <h3>Разработаю сайт/лендинг на React/Next.js </h3>
 <p>Так же могу занятся фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/>
 Этот сайт написан мною поддерживается - React/Next.js</p>
-<h4>Готов заниматься вашими IT проектами, на удаленке!</h4><br/>
+<h4>Готов заниматься вашими IT проектами!</h4><br/>
  
 <p>Если вам нужен надежный backend-разработчик, буду рад пообщаться!</p>
 
