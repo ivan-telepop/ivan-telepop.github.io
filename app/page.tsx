@@ -20,9 +20,9 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
 
-      <h3 className="uppercase">Cайты и лендинги на React / Next.js </h3>
+      {/* <h3 className="uppercase">Cайты и лендинги на React / Next.js </h3>
 <a href="https://t.me/ewanG808">telegram: @ewanG808</a>
-<h3>Готов заниматься вашими IT проектами!</h3><br/>
+<h3>Готов заниматься вашими IT проектами!</h3><br/> */}
 
 <br/>
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
@@ -42,10 +42,10 @@ export default function Page() {
 изучаю новые технологии и инструменты, чтобы быть эффективнее в работе. Спокойный, исполнительный, 
 дружелюбный – умею работать как самостоятельно, так и в команде.
 </p>
-<h3>Разработаю сайт/лендинг на React/Next.js </h3>
+{/* <h3>Разработаю сайт/лендинг на React/Next.js </h3>
 <p>Так же могу занятся фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/>
 Этот сайт написан мною поддерживается - React/Next.js</p>
-<h4>Готов заниматься вашими IT проектами!</h4><br/>
+<h4>Готов заниматься вашими IT проектами!</h4><br/> */}
  
 <p>Если вам нужен надежный backend-разработчик, буду рад пообщаться!</p>
 
