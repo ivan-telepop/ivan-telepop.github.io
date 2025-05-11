@@ -57,7 +57,7 @@ export default function Page() {
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <a href="https://drive.google.com/file/d/1kZa_vzmw8_OelB4wzrvNf51_-KX3pMh-/view?usp=sharing">РЕЗЮМЕ</a>.
+          <a href="https://drive.google.com/file/d/1e0Ld62ct05Fld14XClFR2olxGQd92Zrd/view?usp=sharing">РЕЗЮМЕ</a>.
         </p>
         <p>
           English Version of my {" "}
