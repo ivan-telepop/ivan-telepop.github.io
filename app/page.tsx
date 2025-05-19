@@ -72,7 +72,7 @@ export default function Page() {
         <p>
           Telegram Бот ИИ (RAG) консультант по гражданским правам  {" "}
           <a href="https://t.me/ZakonPravobot" target="_blank">
-            ЗаконПодскажет
+            ЗаконПодскажет [ временно выключен за неуплату векторного хранилища $$ ]
           </a>
           .
         </p>
