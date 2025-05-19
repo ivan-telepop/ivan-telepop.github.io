@@ -90,7 +90,7 @@ export default function Page() {
         </p>
         <p> Мой сайт, пишу что хочу... </p>
 
-            <p> Нужны деньги на билет и на проекты. I'm sure ты  можешь помочь:</p>
+            <p> Нужны деньги на билет и на поддержание проектов:</p>
             <p> Яндекс: 2204311016805377</p>
             <p>Mastercard: 5488880256755328</p>
             <p>bitcoin:12noHS1XiCec8WkzFrDfXRcsHhhKF9LQsf </p>
