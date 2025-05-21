@@ -46,8 +46,8 @@ export default function Page() {
 <p>Если вам нужен надежный backend-разработчик, буду рад пообщаться!</p>
 
 <h3>Разработаю сайт/лендинг на React/Next.js </h3>
-<p>Пару лет назад начал изучать и заниматься фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/>
-Этот сайт написан на React / Next.js</p>
+{/* <p>Пару лет назад начал изучать и заниматься фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/> */}
+<p className="text-sm">PS:Этот сайт написан на Next.js / Tailwind CSS</p>
         <p>
           Люблю путешествовать и  
             <a href="https://mixcult.bandcamp.com/album/self-object-id-ep"> музыку.</a> <br/>
@@ -70,20 +70,20 @@ export default function Page() {
           .
         </p>
 
-        <p>
+        {/* <p>
           Telegram Бот ИИ (RAG) консультант по гражданским правам  {" "}
           <a href="https://t.me/ZakonPravobot" target="_blank">
             ЗаконПодскажет <br/>[ временно выключен ]
           </a>
           .
-        </p>
+        </p> */}
 
 
 
-            <p> Собираю деньги на армию киборгов :</p>
+            {/* <p> Собираю деньги на армию киборгов :</p>
             <p> Яндекс: 2204311016805377</p>
             <p>Mastercard: 5488880256755328</p>
-            <p>bitcoin:12noHS1XiCec8WkzFrDfXRcsHhhKF9LQsf </p>
+            <p>bitcoin:12noHS1XiCec8WkzFrDfXRcsHhhKF9LQsf </p> */}
 
 
       </div>
