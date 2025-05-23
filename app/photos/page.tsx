@@ -30,7 +30,7 @@ export default function Photos() {
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/photos/iv-g.png",
+            src: "/photos/ableton.png",
             alt: "Leto",
             href: "https://github.com/ivanIStereotekk",
           },
@@ -70,7 +70,7 @@ export default function Photos() {
         columns={4}
         images={[
           { src: "/photos/pic1.jpg", alt: "***" },
-          { src: "/photos/iv-g.png", alt: "me" },
+          { src: "/photos/ableton.png", alt: "me" },
           { src: "/photos/dog.jpg", alt: "Dog" },
           { src: "/photos/vs-code.png", alt: "eq" },
           { src: "/photos/fl-02.jpg", alt: "Plane" },
