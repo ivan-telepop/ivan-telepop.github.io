@@ -1,8 +1,8 @@
 export const metaData = {
   baseUrl: "https://ivanistereotekk.github.io/",
   title: "Ivan Goncharov",
-  name: "Python Developer - Ivan Goncharov",
-  ogImage: "/ivan-goncharov.png",
+  name: "Python Developer - Ivan Goncharov |  artist Ivan Stereotekk",
+  ogImage: "/trian.png",
   description:
     "Персональная страничка Python разработчика Ивана Гончарова.",
 };
