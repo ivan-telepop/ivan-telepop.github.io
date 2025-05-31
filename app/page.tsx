@@ -62,6 +62,11 @@ export default function Page() {
           <a href="https://drive.google.com/file/d/1e0Ld62ct05Fld14XClFR2olxGQd92Zrd/view?usp=sharing">РЕЗЮМЕ</a>.
         </p>
         <p>
+          Рекомендация с места работы{" "}
+          <a href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">в этом письме.</a>.
+        </p>
+
+        <p>
           English Version of my {" "}
           <a href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</a>.
         </p>
