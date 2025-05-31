@@ -2,6 +2,7 @@ import Image from "next/image";
 import { socialLinks } from "./config";
 
 export default function Page() {
+
   return (
     <section>
       <a href={socialLinks.twitter} target="_blank">
@@ -44,6 +45,9 @@ export default function Page() {
 дружелюбный – умею работать как самостоятельно, так и в команде.
 </p>
 <p>Если вам нужен надежный backend-разработчик, буду рад пообщаться!</p>
+<div>
+<iframe className="w-[280px] h-[157px] sm:w-[374px] sm:h-[210px] lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/erfhqGZoAJg?si=YyP0HP4SLWUYqxOF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <h3>Разработаю сайт/лендинг на React/Next.js </h3>
 {/* <p>Пару лет назад начал изучать и заниматься фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/> */}
