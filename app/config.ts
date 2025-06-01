@@ -1,6 +1,6 @@
 export const metaData = {
   baseUrl: "https://ivanistereotekk.github.io/",
-  title: "Ivan Goncharov - Бекенд Python - Django, FastAPI, Databases, Docker etc.",
+  title: "Ivan Goncharov ",
   name: "Информация о кандидате, резюме, ссылки, работы, контакты.",
   ogImage: "/trian.png",
   description:
