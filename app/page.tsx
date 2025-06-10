@@ -57,7 +57,7 @@ React / Next.js / Tailwind и др.<br/>
 <p>Если вам нужен надежный разработчик, буду рад пообщаться!</p>
 {/* <VideoYoutube></VideoYoutube> */}
 <pre className="prose prose-neutral dark:prose-invert ">
-<h3>Разработаю сайт на React/Next.js </h3>
+<h3>Разрабатываю на React/Next.js и Tailwind </h3>
 {/* <p>Пару лет назад начал изучать и заниматься фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/> */}
 <p className="text-sm">Этот [вы смотрите] написан на <Link href="https://ivanistereotekk.github.io/hidden-garden/"> React / Next.js / Tailwind CSS</Link></p>
         <p>
@@ -74,6 +74,11 @@ React / Next.js / Tailwind и др.<br/>
         <p>
           Рекомендация с места работы{" "}
           <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">в этом письме.</Link>.
+        </p>
+
+        <p>
+          Почитать автобиографию{" "}
+          <Link href="blog/personal-story"> можно в этой статье.</Link>.
         </p>
 
         <p>

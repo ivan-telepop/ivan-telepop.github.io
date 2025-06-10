@@ -2,7 +2,7 @@ export const metaData = {
   baseUrl: "https://ivanistereotekk.github.io/",
   title: "Ivan Goncharov ",
   name: "Информация о кандидате, резюме, ссылки, работы, контакты.",
-  ogImage: "/trian.png",
+  ogImage: "/public/photos/ivan-808.jpg",
   description:
     "На этой странице вы найдете Python разработчика! Гончаров Иван - Ознакомьтесь с опытом и технологиями - FastAPI, Django, SQL, Docker, AI, Next.js",
 };
