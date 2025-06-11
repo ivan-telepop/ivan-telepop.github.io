@@ -22,12 +22,80 @@ export default function Page() {
       
 
       <div className="prose prose-neutral dark:prose-invert">
+<section id="eng">
+          <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#russ">read rus</Link>
+      <div>
+<h1 className="mb-8 text-2xl font-medium tracking-tight">
+  Hi, I'm Ivan Goncharov!
+</h1>
 
-      {/* <h3 className="uppercase">Cайты и лендинги на React / Next.js </h3>
-<a href="https://t.me/ewanG808">telegram: @ewanG808</a>
-<h3>Готов заниматься вашими IT проектами!</h3><br/> */}
+I develop server-side applications in Python and specialize in building REST APIs for businesses.  
+I have experience in commercial development and have worked on projects focused on backend system design and optimization, as well as infrastructure tasks.<br/>
 
-<br/>
+<pre className="prose prose-neutral dark:prose-invert ">
+My main stack: <br/>
+Python, FastAPI, Docker, MQ, <br/>
+Relational Databases, SQLAlchemy. <br/>
+Strong understanding of web application architecture <br/>
+Work with databases, set up environments and deployment processes. <br/>
+I have experience working with LLMs <br/> 
+Ollama, LangChain, OpenAI <br/>
+RAG / Function Calling / Completions. <br/>
+<p>I also develop <Link href="https://t.me/ewanG808" className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500">frontend</Link></p> <br/>
+React / Next.js / Tailwind and more.<br/>
+</pre>
+
+<p>I also have experience as a network engineer, which helps me better understand infrastructure and optimize distributed services.</p>
+
+<p>I prefer clean, maintainable code and always strive to write it following best practices. I'm constantly learning, exploring new technologies and tools to be more effective in my work. Calm, reliable, and friendly — I can work both independently and as part of a team.</p>
+
+<p>If you’re looking for a dependable developer, I’d be happy to chat!</p>
+{/* <VideoYoutube></VideoYoutube> */}
+<pre className="prose prose-neutral dark:prose-invert ">
+<h3>I build with React/Next.js and Tailwind</h3>
+{/* <p>A couple of years ago I started exploring frontend development, and currently I'm focused on React/Next.js. <br/> */}
+<p className="text-sm">This [what you're viewing] is built with <Link href="https://ivanistereotekk.github.io/hidden-garden/">React / Next.js / Tailwind CSS</Link></p>
+        <p>
+          And so is this one   
+            <Link href="https://ivanistereotekk.github.io/hidden-garden/"> React / Next.js / Tailwind.</Link> <br/>
+        </p>
+</pre>
+    
+<p>
+  If you'd like to review my experience, here is my{" "}
+  <Link href="https://drive.google.com/file/d/1e0Ld62ct05Fld14XClFR2olxGQd92Zrd/view?usp=sharing">RESUME</Link>.
+</p>
+<p>
+  A recommendation letter from my previous job{" "}
+  <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">can be found here.</Link>.
+</p>
+
+<p>
+  You can read my autobiography{" "}
+  <Link href="blog/personal-story-en">in this article.</Link>.
+</p>
+
+<p>
+  English Version of my{" "}
+  <Link href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</Link>
+</p>
+
+<p>
+  If you need access to my{" "}
+  <Link href="https://github.com/ivanIStereotekk" target="_blank">
+    GitHub repository
+  </Link>
+  .
+</p>
+
+</div>
+</section>
+
+<hr/>
+
+
+<section id="russ">
+<Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#eng">read eng</Link>
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
         Привет, я Иван Гончаров!
       </h1>
@@ -92,24 +160,7 @@ React / Next.js / Tailwind и др.<br/>
           </Link>
           .
         </p>
-
-
-        {/* <p>
-          Telegram Бот ИИ (RAG) консультант по гражданским правам  {" "}
-          <a href="https://t.me/ZakonPravobot" target="_blank">
-            ЗаконПодскажет <br/>[ временно выключен ]
-          </a>
-          .
-        </p> */}
-
-
-
-            {/* <p> Собираю деньги на армию киборгов :</p>
-            <p> Яндекс: 2204311016805377</p>
-            <p>Mastercard: 5488880256755328</p>
-            <p>bitcoin:12noHS1XiCec8WkzFrDfXRcsHhhKF9LQsf </p> */}
-
-
+        </section>
       </div>
     </section>
   );
