@@ -11,7 +11,7 @@ export const socialLinks = {
   twitter: "https://x.com/ivan_stereotekk",
   github: "https://github.com/ivanIStereotekk",
   instagram: "https://www.instagram.com/ivan_stereotekk?igsh=a2V2OHc4dWRza3Fp",
-  linkedin: "https://www.linkedin.com/in/ivan-goncharov-422529243/",
+  linkedin: "https://www.linkedin.com/in/ivan-goncharov-01b2a736a/",
   email: "mailto:ivan.stereotekk@gmail.com",
   soundcloud: "https://soundcloud.com/ivanstereotekk"
 };
