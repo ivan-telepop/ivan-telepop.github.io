@@ -60,11 +60,16 @@ React / Next.js / Tailwind and more.<br/>
             <Link href="https://ivanistereotekk.github.io/hidden-garden/"> React / Next.js / Tailwind.</Link> <br/>
         </p>
 </pre>
-    
+
 <p>
+  English Version of my{" "}
+  <Link href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</Link>
+</p>
+    
+{/* <p>
   If you'd like to review my experience, here is my{" "}
   <Link href="https://drive.google.com/file/d/1e0Ld62ct05Fld14XClFR2olxGQd92Zrd/view?usp=sharing">RESUME</Link>.
-</p>
+</p> */}
 <p>
   A recommendation letter from my previous job{" "}
   <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">can be found here.</Link>.
@@ -73,11 +78,6 @@ React / Next.js / Tailwind and more.<br/>
 <p>
   You can read my autobiography{" "}
   <Link href="blog/personal-story-en">in this article.</Link>.
-</p>
-
-<p>
-  English Version of my{" "}
-  <Link href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</Link>
 </p>
 
 <p>
