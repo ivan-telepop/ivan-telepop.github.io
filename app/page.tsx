@@ -3,6 +3,7 @@ import { socialLinks } from "./config";
 import VideoYoutube from "./components/videocom";
 import Link from "next/link";
 import ChatComponent from "./components/chatcomponent";
+import { LuBrainCircuit } from "react-icons/lu";
 
 export default function Page() {
 
@@ -25,8 +26,11 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
 <section id="eng">
           <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#russ">read rus</Link>
-          <Link className=" p-1 no-underline bg-yellow-600 dark:bg-red-400" href="#ai-eng">ask AI</Link>
+          <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-eng">ask AI</Link>
+          {/* <Link className="pl-5" href="#ai-eng"><LuBrainCircuit/></Link> */}
+          
       <div>
+      
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
   Hi, I'm Ivan Goncharov!
 </h1>
@@ -103,7 +107,7 @@ React / Next.js / Tailwind and more.<br/>
 
 <section id="russ">
 <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#eng">read eng</Link>
-<Link className=" p-1 no-underline bg-yellow-600 dark:bg-red-400" href="#ai-russ">спросить ИИ</Link>
+<Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-russ">спросить ИИ</Link>
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
         Привет, я Иван Гончаров!
       </h1>

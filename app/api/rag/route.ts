@@ -1,8 +1,10 @@
 import { Pinecone } from '@pinecone-database/pinecone'
 
+
+const API_KEY = 'pcsk_3CS6nF_KwcT7rt8xMkE2urdEj4JyzijnsTHinr53QfmEJYNabn3x72bYT8xh9RcoUkZAEn'
 // Basic setup for Pinecone
-const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY || 'pcsk_3CS6nF_KwcT7rt8xMkE2urdEj4JyzijnsTHinr53QfmEJYNabn3x72bYT8xh9RcoUkZAEn'});
-const assistantName = process.env.PINECONE_ASSISTANT_NAME || 'about-ivan';
+const pc = new Pinecone({ apiKey: API_KEY});
+const assistantName = 'about-ivan';
 const assistant = pc.Assistant(assistantName);
 
 
@@ -21,7 +23,7 @@ export async function POST(req: Request) {
     }
 
 
-    if (!process.env.PINECONE_API_KEY) {
+    if (!API_KEY) {
       console.error('PINECONE_API_KEY is not set in environment variables');
       return Response.json(
         { error: 'Pinecone key is not configured' },
