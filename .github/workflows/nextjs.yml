@@ -82,6 +82,9 @@ jobs:
 
   # Deployment job
   deploy:
+    env:
+      PINECONE_API_KEY: pcsk_3CS6nF_KwcT7rt8xMkE2urdEj4JyzijnsTHinr53QfmEJYNabn3x72bYT8xh9RcoUkZAEn
+      PINECONE_ASSISTANT_NAME: 'about-ivan'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
