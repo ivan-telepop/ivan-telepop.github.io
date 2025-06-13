@@ -26,9 +26,8 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
 <section id="eng">
           <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#russ">read rus</Link>
-          <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-eng">ask AI</Link>
-          {/* <Link className="pl-5" href="#ai-eng"><LuBrainCircuit/></Link> */}
-          
+          {/* <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-eng">ask AI</Link> */}
+         
       <div>
       
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
@@ -96,18 +95,18 @@ React / Next.js / Tailwind and more.<br/>
 <hr/>
 </div>
 </section>
-<section id="ai-eng">
+{/* <section id="ai-eng">
 <div className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
   <ChatComponent inputPlaceholder="Type your question..."></ChatComponent>
 </div>
-</section>
+</section> */}
 
 <hr/>
 
 
 <section id="russ">
 <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#eng">read eng</Link>
-<Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-russ">спросить ИИ</Link>
+{/* <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-russ">спросить ИИ</Link> */}
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
         Привет, я Иван Гончаров!
       </h1>
@@ -173,12 +172,12 @@ React / Next.js / Tailwind и др.<br/>
           .
         </p>
         </section>
-        <section id="ai-russ">
+        {/* <section id="ai-russ">
         <hr/>
         <div className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
         <ChatComponent description="Здесь вы можете задать вопросы ИИ о профессиональном опыте и качествах Ивана."  title="Спросите ИИ об Иване" inputPlaceholder="Пишите вопрос..."></ChatComponent>
         </div>
-        </section>
+        </section> */}
       </div>
     </section>
   );
