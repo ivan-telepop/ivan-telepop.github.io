@@ -2,7 +2,14 @@
 import { useState } from 'react'
 import MessageList from 'app/components/messagelist'
 import MessageInput from 'app/components/messageinput';
+import { Pinecone } from '@pinecone-database/pinecone'
 
+
+const API_KEY = 'pcsk_3CS6nF_KwcT7rt8xMkE2urdEj4JyzijnsTHinr53QfmEJYNabn3x72bYT8xh9RcoUkZAEn'
+// Basic setup for Pinecone
+const pc = new Pinecone({ apiKey: API_KEY});
+const assistantName = 'about-ivan';
+const assistant = pc.Assistant(assistantName);
 
 
 type ChatComponentProps = {
@@ -24,21 +31,14 @@ export default function ChatComponent({ title = 'Ask AI about Ivan', inputPlaceh
     setLoading(true)
 
     try {
-      const res = await fetch('/api/rag', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt }),
-      })
+      const chatResp = await assistant.chat({
+        messages: [{ role: 'user', content: prompt }],
+      });
+      const assistantResponse = chatResp?.message?.content || "";
 
-      if (!res.ok) {
-        throw new Error('Network response was not ok')
-      }
-
-      const data = await res.json()
-      const parsedData = data.response;
       const assistantMessage = {
         role: 'assistant',
-        content: JSON.stringify(parsedData),
+        content: assistantResponse.replace(/\n/g, ' '),
       }
 
       setMessages(prev => [...prev, assistantMessage])
@@ -51,7 +51,7 @@ export default function ChatComponent({ title = 'Ask AI about Ivan', inputPlaceh
 
   return (
     <main className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
-      <pre className='wrap-break-word whitespace-normal'>
+      <pre>
       <h5>{description}</h5>  
       <h2 className="text-1xl mb-4">{title}</h2>
 

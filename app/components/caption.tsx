@@ -1,6 +1,10 @@
 import Balancer from "react-wrap-balancer";
 import type { ReactNode } from "react";
 
+
+// balancer - балансирует заголовки
+
+
 export function CaptionComponent({ children }: { children: ReactNode }) {
   return (
     <span className="block w-full text-xs my-3 font-mono text-gray-500 text-center leading-normal">

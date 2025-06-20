@@ -95,11 +95,11 @@ React / Next.js / Tailwind and more.<br/>
 <hr/>
 </div>
 </section>
-{/* <section id="ai-eng">
+<section id="ai-eng">
 <div className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
   <ChatComponent inputPlaceholder="Type your question..."></ChatComponent>
 </div>
-</section> */}
+</section>
 
 <hr/>
 
