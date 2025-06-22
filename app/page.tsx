@@ -4,6 +4,7 @@ import VideoYoutube from "./components/videocom";
 import Link from "next/link";
 import ChatComponent from "./components/chatcomponent";
 import { LuBrainCircuit } from "react-icons/lu";
+import AlertDialogGetContact from "./components/alertdialoguecomp"
 
 export default function Page() {
 
@@ -92,8 +93,15 @@ React / Next.js / Tailwind and more.<br/>
   </Link>
   .
 </p>
+<pre>
+<AlertDialogGetContact/>
+</pre>
+
 </div>
 </section>
+
+
+
 {/*
 <section id="ai-eng">
 <div className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
@@ -178,6 +186,10 @@ React / Next.js / Tailwind и др.<br/>
         <ChatComponent description="Здесь вы можете задать вопросы ИИ о профессиональном опыте и качествах Ивана."  title="Спросите ИИ об Иване" inputPlaceholder="Пишите вопрос..."></ChatComponent>
         </div>
         </section> */}
+
+      <pre>
+      <AlertDialogGetContact/>
+      </pre>  
       </div>
     </section>
   );
