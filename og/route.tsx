@@ -5,8 +5,7 @@ import { metaData } from "app/config";
 export function GET(request: Request) {
   let url = new URL(request.url);
   let title =  url.searchParams.get("title") || metaData.title; 
-  //url.searchParams.get("title") ||
-
+  // let ogImage = url.searchParams.get("image") || metaData.ogImage;
   return new ImageResponse(
     (
       <div tw="flex flex-col w-full h-full items-center justify-center bg-white">
