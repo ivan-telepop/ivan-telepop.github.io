@@ -28,7 +28,9 @@ export function Navbar() {
               {name}
             </Link>
           ))}
-          <ThemeSwitch />
+          <div className="pl-20">
+            <ThemeSwitch />
+          </div>
         </div>
       </div>
     </nav>
