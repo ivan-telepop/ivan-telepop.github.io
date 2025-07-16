@@ -7,7 +7,7 @@ Stack: React / Next / Tailwind
 
 Pages: 
 
-- https://ivanistereotekk.github.io/
-- https://ivanistereotekk.github.io/blog
-- https://ivanistereotekk.github.io/projects
-- https://ivanistereotekk.github.io/photos
+- https://ivan-telepop.github.io/
+- https://ivan-telepop.github.io/blog
+- https://ivan-telepop.github.io/projects
+- https://ivan-telepop.github.io/photos

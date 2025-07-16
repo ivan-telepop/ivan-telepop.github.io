@@ -60,10 +60,10 @@ React / Next.js / Tailwind and more.<br/>
 <pre className="prose prose-neutral dark:prose-invert ">
 <h3>I build with React/Next.js and Tailwind</h3>
 {/* <p>A couple of years ago I started exploring frontend development, and currently I'm focused on React/Next.js. <br/> */}
-<p className="text-sm">This [what you're viewing] is built with <Link href="https://ivanistereotekk.github.io/hidden-garden/">React / Next.js / Tailwind CSS</Link></p>
+<p className="text-sm">This [what you're viewing] is built with <Link href="https://ivan-telepop.github.io/hidden-garden/">React / Next.js / Tailwind CSS</Link></p>
         <p>
           And so is this one   
-            <Link href="https://ivanistereotekk.github.io/hidden-garden/"> React / Next.js / Tailwind.</Link> <br/>
+            <Link href="https://ivan-telepop.github.io/hidden-garden/"> React / Next.js / Tailwind.</Link> <br/>
         </p>
 </pre>
 
@@ -88,7 +88,7 @@ React / Next.js / Tailwind and more.<br/>
 
 <p>
   If you need access to my{" "}
-  <Link href="https://github.com/ivanIStereotekk" target="_blank">
+  <Link href="https://github.com/ivan-telepop" target="_blank">
     GitHub repository
   </Link>
   .
@@ -141,15 +141,15 @@ React / Next.js / Tailwind и др.<br/>
 изучаю новые технологии и инструменты, чтобы быть эффективнее в работе. Спокойный, исполнительный, 
 дружелюбный – умею работать как самостоятельно, так и в команде.
 </p>
-<p>Если вам нужен python разработчик, буду рад !</p>
+<p>Если вам нужен python разработчик, буду рад работать в команде или как самостоятельныый разработчик !</p>
 {/* <VideoYoutube></VideoYoutube> */}
 <pre className="prose prose-neutral dark:prose-invert ">
 <h3>Разрабатываю на React/Next.js и Tailwind </h3>
 {/* <p>Пару лет назад начал изучать и заниматься фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/> */}
-<p className="text-sm">Этот [вы смотрите] написан на <Link href="https://ivanistereotekk.github.io/hidden-garden/"> React / Next.js / Tailwind CSS</Link></p>
+<p className="text-sm">Этот [вы смотрите] написан на <Link href="https://ivan-telepop.github.io/hidden-garden/"> React / Next.js / Tailwind CSS</Link></p>
         <p>
           И этот тоже написан на   
-            <Link href="https://ivanistereotekk.github.io/hidden-garden/"> React / Next.js / Tailwind.</Link> <br/>
+            <Link href="https://ivan-telepop.github.io/hidden-garden/"> React / Next.js / Tailwind.</Link> <br/>
 
         </p>
 </pre>
@@ -162,11 +162,11 @@ React / Next.js / Tailwind и др.<br/>
           Рекомендация с места работы{" "}
           <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">в этом письме.</Link>.
         </p>
-
+{/* 
         <p>
           Почитать автобиографию{" "}
           <Link href="blog/personal-story"> можно в этой статье.</Link>.
-        </p>
+        </p> */}
 
         <p>
           English Version of my {" "}
@@ -174,7 +174,7 @@ React / Next.js / Tailwind и др.<br/>
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
-          <Link href="https://github.com/ivanIStereotekk" target="_blank">
+          <Link href="https://github.com/ivan-telepop" target="_blank">
             GitHub
           </Link>
           .
