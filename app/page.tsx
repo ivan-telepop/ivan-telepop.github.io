@@ -117,7 +117,7 @@ React / Next.js / Tailwind and more.<br/>
 {/* <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-russ">спросить ИИ</Link> */}
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
         Привет, я Иван Гончаров!
-      </h1>
+</h1>
 
 Я Python разработчик, специализируюсь на создании REST API и приложений для бизнеса. 
 Работал в проектах, решая задачи по построению и оптимизации backend-систем и инфраструктуры.<br/>
@@ -156,7 +156,7 @@ React / Next.js / Tailwind и др.<br/>
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <Link href="https://drive.google.com/file/d/1JKwN-AK3glRn_Geitr7PkRLX0SD70j-C/view?usp=sharing">РЕЗЮМЕ</Link>.
+          <Link href="https://drive.google.com/file/d/1ZnBkSagQqw0IyEXQS_CC3Y3a9gbSohLf/view?usp=drive_link">РЕЗЮМЕ</Link>.
         </p>
         <p>
           Рекомендация с места работы{" "}
