@@ -156,11 +156,11 @@ React / Next.js / Tailwind и др.<br/>
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <Link href="https://drive.google.com/file/d/1ZnBkSagQqw0IyEXQS_CC3Y3a9gbSohLf/view?usp=drive_link">РЕЗЮМЕ</Link>.
+          <Link href="https://drive.google.com/file/d/15C0Sxc9A5jR0J20_15Rjf0zlN_5s5g_b/view?usp=drive_link">РЕЗЮМЕ</Link>.
         </p>
         <p>
           Рекомендация с места работы{" "}
-          <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">в этом письме.</Link>.
+          <Link href="https://drive.google.com/file/d/1dZOx6UuyCLEF5ylc635VzaRzFWym4uOG/view?usp=drive_link">в этом письме.</Link>.
         </p>
 {/* 
         <p>
@@ -170,7 +170,7 @@ React / Next.js / Tailwind и др.<br/>
 
         <p>
           English Version of my {" "}
-          <Link href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</Link>.
+          <Link href="https://drive.google.com/file/d/1l35V6QcFRCiNtOpvnXJit_SyOY7TzF5y/view?usp=drive_link">Curriculum Vitae (CV).</Link>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
