@@ -81,10 +81,10 @@ React / Next.js / Tailwind and more.<br/>
   <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">can be found here.</Link>.
 </p>
 
-<p>
+{/* <p>
   You can read my autobiography{" "}
   <Link href="blog/personal-story-en">in this article.</Link>.
-</p>
+</p> */}
 
 <p>
   If you need access to my{" "}
