@@ -8,7 +8,7 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/telepop",
+  twitter: "https://x.com/@telepop79",
   github: "https://github.com/ivan-telepop",
   instagram: "https://www.instagram.com/telepop-iv?igsh=a2V2OHc4dWRza3Fp",
   linkedin: "https://www.linkedin.com/in/ivan-goncharov-01b2a736a/",
