@@ -1,5 +1,5 @@
 export const metaData = {
-  baseUrl: "https://ivanistereotekk.github.io/",
+  baseUrl: "https://ivan-telepop.github.io/",
   title: "Ivan Goncharov ",
   name: "Информация о кандидате, резюме, ссылки, работы, контакты.",
   ogImage: "/trian.png",
@@ -8,10 +8,10 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/ivan_stereotekk",
-  github: "https://github.com/ivanIStereotekk",
-  instagram: "https://www.instagram.com/ivan_stereotekk?igsh=a2V2OHc4dWRza3Fp",
+  twitter: "https://x.com/telepop",
+  github: "https://github.com/ivan-telepop",
+  instagram: "https://www.instagram.com/telepop-iv?igsh=a2V2OHc4dWRza3Fp",
   linkedin: "https://www.linkedin.com/in/ivan-goncharov-01b2a736a/",
-  email: "mailto:ivan.stereotekk@gmail.com",
-  soundcloud: "https://soundcloud.com/ivanstereotekk"
+  email: "mailto:telepop.iv@gmail.com",
+  soundcloud: "https://soundcloud.com/telepop-iv"
 };
