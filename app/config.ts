@@ -1,6 +1,6 @@
 export const metaData = {
   baseUrl: "https://ivan-telepop.github.io/",
-  title: "Ivan Goncharov ",
+  title: "I.Goncharov ",
   name: "Информация о кандидате, резюме, ссылки, работы, контакты.",
   ogImage: "/trian.png",
   description:
