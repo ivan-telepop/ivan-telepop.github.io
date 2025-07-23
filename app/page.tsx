@@ -27,7 +27,7 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
 <section id="eng">
           <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#russ">read rus</Link>
-          {/* <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-eng">ask AI</Link> */}
+
          
       <div>
       
@@ -55,11 +55,11 @@ React / Next.js / Tailwind and more.<br/>
 
 <p>I prefer clean, maintainable code and always strive to write it following best practices. I'm constantly learning, exploring new technologies and tools to be more effective in my work. Calm, reliable, and friendly — I can work both independently and as part of a team.</p>
 
-<p>If you’re looking for a dependable developer, I’d be happy to chat!</p>
-{/* <VideoYoutube></VideoYoutube> */}
+<p>If you’re looking for a developer, I’d be happy to contact!</p>
+
 <pre className="prose prose-neutral dark:prose-invert ">
 <h3>I build with React/Next.js and Tailwind</h3>
-{/* <p>A couple of years ago I started exploring frontend development, and currently I'm focused on React/Next.js. <br/> */}
+
 <p className="text-sm">This [what you're viewing] is built with <Link href="https://ivan-telepop.github.io/hidden-garden/">React / Next.js / Tailwind CSS</Link></p>
         <p>
           And so is this one   
@@ -81,10 +81,6 @@ React / Next.js / Tailwind and more.<br/>
   <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">can be found here.</Link>.
 </p>
 
-{/* <p>
-  You can read my autobiography{" "}
-  <Link href="blog/personal-story-en">in this article.</Link>.
-</p> */}
 
 <p>
   If you need access to my{" "}
@@ -102,19 +98,11 @@ React / Next.js / Tailwind and more.<br/>
 
 
 
-{/*
-<section id="ai-eng">
-<div className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
-  <ChatComponent inputPlaceholder="Type your question..."></ChatComponent>
-</div>
-</section> */}
-
 <hr/>
 
 
 <section id="russ">
 <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#eng">read eng</Link>
-{/* <Link className=" p-1 no-underline bg-blue-500 dark:bg-emerald-400" href="#ai-russ">спросить ИИ</Link> */}
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
         Привет, я Иван Гончаров!
 </h1>
@@ -141,11 +129,10 @@ React / Next.js / Tailwind и др.<br/>
 изучаю новые технологии и инструменты, чтобы быть эффективнее в работе. Спокойный, исполнительный, 
 дружелюбный – умею работать как самостоятельно, так и в команде.
 </p>
-<p>Если вам нужен python разработчик, буду рад работать в команде или как самостоятельныый разработчик !</p>
+<p>Буду рад если по достоинству оцените мои навыки !</p>
 {/* <VideoYoutube></VideoYoutube> */}
 <pre className="prose prose-neutral dark:prose-invert ">
 <h3>Разрабатываю на React/Next.js и Tailwind </h3>
-{/* <p>Пару лет назад начал изучать и заниматься фронтенд разработкой, на текущий момент мне интересен React/Next.js. <br/> */}
 <p className="text-sm">Этот [вы смотрите] написан на <Link href="https://ivan-telepop.github.io/hidden-garden/"> React / Next.js / Tailwind CSS</Link></p>
         <p>
           И этот тоже написан на   
@@ -162,11 +149,7 @@ React / Next.js / Tailwind и др.<br/>
           Рекомендация с места работы{" "}
           <Link href="https://drive.google.com/file/d/1dZOx6UuyCLEF5ylc635VzaRzFWym4uOG/view?usp=drive_link">в этом письме.</Link>.
         </p>
-{/* 
-        <p>
-          Почитать автобиографию{" "}
-          <Link href="blog/personal-story"> можно в этой статье.</Link>.
-        </p> */}
+
 
         <p>
           English Version of my {" "}
@@ -180,12 +163,7 @@ React / Next.js / Tailwind и др.<br/>
           .
         </p>
         </section>
-        {/* <section id="ai-russ">
-        <hr/>
-        <div className="max-w-2xl mx-auto flex flex-col min-h-80 min-w-full">
-        <ChatComponent description="Здесь вы можете задать вопросы ИИ о профессиональном опыте и качествах Ивана."  title="Спросите ИИ об Иване" inputPlaceholder="Пишите вопрос..."></ChatComponent>
-        </div>
-        </section> */}
+    
 
       <pre>
       <AlertDialogGetContact/>
