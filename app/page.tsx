@@ -143,7 +143,7 @@ React / Next.js / Tailwind и др.<br/>
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <Link href="https://drive.google.com/file/d/15C0Sxc9A5jR0J20_15Rjf0zlN_5s5g_b/view?usp=drive_link">РЕЗЮМЕ</Link>.
+          <Link href="https://drive.google.com/file/d/1Ad0xD4uQdMNS7W0nSotppNGFNGrUGBLY/view?usp=drive_link">РЕЗЮМЕ</Link>.
         </p>
         <p>
           Рекомендация с места работы{" "}
