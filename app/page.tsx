@@ -69,7 +69,7 @@ React / Next.js / Tailwind and more.<br/>
 
 <p>
   English Version of my{" "}
-  <Link href="https://drive.google.com/file/d/1MLT-dgXM2oEy2UY6ee7EwjIuxl4AAgnv/view?usp=sharing">Curriculum Vitae (CV).</Link>
+  <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">Curriculum Vitae (CV).</Link>
 </p>
     
 {/* <p>
@@ -107,23 +107,23 @@ React / Next.js / Tailwind and more.<br/>
         Привет, я Иван Гончаров!
 </h1>
 
-Я Python разработчик, специализируюсь на создании REST API и приложений для бизнеса. 
-Работал в проектах, решая задачи по построению и оптимизации backend-систем и инфраструктуры.<br/>
+Я Python разработчик, с богатым опытом работы в технологичных сферах. 
+Работал в проектах, решая задачи по построению и оптимизации backend-систем для бизнеса и инфраструктуры.<br/>
 
 <pre className="prose prose-neutral dark:prose-invert ">
 Мой основной стек: <br/>
-Python, FastAPI, Docker<br/>
+Python, FastAPI, Django, Docker<br/>
 Relational Databases, SQLAlchemy. <br/>
-Понимаю микро сервисную архитектуру <br/>
+Одно из основных моих приемуществ я глубоко вовлечен Open Source, постоянно изучаю технологические новинки и хорошо разбираюсь в том что есть на передовой.  <br/>
  <br/>
-Есть опыт работы с LLM <br/> 
+Есть опыт работы с моделями LLM <br/> 
 Ollama, LangChain, OpenAI <br/>
 RAG / Function Calling / Completions. <br/>
 <p>Есть знания<Link href="https://t.me/ewanG808" className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500">frontend</Link></p> <br/>
 React / Next.js / Tailwind и др.<br/>
 </pre>
 
-<p>Так же имею опыт работы сетевым инженером в компании, что помогает мне лучше разбираться в инфраструктуре и оптимизации распределенных сервисов.</p>
+<p>Так же имею опыт работы инженером в компаниях, что помогает мне лучше разбираться в архитектуре, инфраструктуре и оптимизации распределенных сервисов.</p>
 
 <p>Предпочитаю чистый, поддерживаемый код и всегда стараюсь писать его с учетом лучших практик. Постоянно учусь, 
 изучаю новые технологии и инструменты, чтобы быть эффективнее в работе. Спокойный, исполнительный, 
@@ -143,7 +143,7 @@ React / Next.js / Tailwind и др.<br/>
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <Link href="https://drive.google.com/file/d/1Ad0xD4uQdMNS7W0nSotppNGFNGrUGBLY/view?usp=drive_link">РЕЗЮМЕ</Link>.
+          <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">РЕЗЮМЕ</Link>.
         </p>
         <p>
           Рекомендация с места работы{" "}
@@ -153,7 +153,7 @@ React / Next.js / Tailwind и др.<br/>
 
         <p>
           English Version of my {" "}
-          <Link href="https://drive.google.com/file/d/1l35V6QcFRCiNtOpvnXJit_SyOY7TzF5y/view?usp=drive_link">Curriculum Vitae (CV).</Link>.
+          <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">Curriculum Vitae (CV).</Link>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
