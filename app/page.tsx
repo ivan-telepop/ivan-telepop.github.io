@@ -22,8 +22,7 @@ export default function Page() {
         />
       </a>
 
-      
-
+    
       <div className="prose prose-neutral dark:prose-invert">
 <section id="eng">
           <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#russ">read rus</Link>
@@ -95,12 +94,7 @@ React / Next.js / Tailwind and more.<br/>
 
 </div>
 </section>
-
-
-
 <hr/>
-
-
 <section id="russ">
 <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#eng">read eng</Link>
 <h1 className="mb-8 text-2xl font-medium tracking-tight">
