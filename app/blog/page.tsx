@@ -12,17 +12,15 @@ export default function BlogPosts() {
 
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">О коде и технологиях</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Пишу о коде и технологиях</h1>
 
     <div className="pb-24 prose prose-neutral dark:prose-invert ">
 <p>
-      {/* Прежде чем что-либо делать, я всегда задаю себе вопрос...<br/> 
-      <b>Зачем ?</b> */}
     <p>      
-    Публикую статьи о том что сам выучил или понял.
+    Публикую статьи о том что сам понял и хочу поделится.
     Если вы нашли ошибку, 
     или же хотите что то добавить,<br/> 
-    то жду ваших писем на: ivan.stereotekk@gmail.com
+    сообщите пожалуйста на: telepop.iv@gmail.com
     </p>
 </p>
     </div>
