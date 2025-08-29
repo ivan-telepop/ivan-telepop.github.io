@@ -12,7 +12,7 @@ info-help.txt
 # next.js
 /.next/
 /out/
-
+/app/api/rag/*
 # production
 /build
 
@@ -20,6 +20,7 @@ info-help.txt
 .DS_Store
 *.pem
 .vscode
+pinecone.api.ts
 
 # debug
 npm-debug.log*
@@ -29,7 +30,7 @@ yarn-error.log*
 
 # env files
 .env
-
+info-help.txt
 # vercel
 .vercel
 

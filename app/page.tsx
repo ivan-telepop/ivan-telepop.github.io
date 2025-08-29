@@ -2,8 +2,6 @@ import Image from "next/image";
 import { socialLinks } from "./config";
 import VideoYoutube from "./components/videocom";
 import Link from "next/link";
-import ChatComponent from "./components/chatcomponent";
-import { LuBrainCircuit } from "react-icons/lu";
 import AlertDialogGetContact from "./components/alertdialoguecomp"
 
 export default function Page() {
@@ -70,11 +68,7 @@ React / Next.js / Tailwind and more.<br/>
   English Version of my{" "}
   <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">Curriculum Vitae (CV).</Link>
 </p>
-    
-{/* <p>
-  If you'd like to review my experience, here is my{" "}
-  <Link href="https://drive.google.com/file/d/1e0Ld62ct05Fld14XClFR2olxGQd92Zrd/view?usp=sharing">RESUME</Link>.
-</p> */}
+
 <p>
   A recommendation letter from my previous job{" "}
   <Link href="https://drive.google.com/file/d/1vmkdQpL6pjxc5wKelzC72vWGGa8ISG59/view?usp=drive_link">can be found here.</Link>.
