@@ -1,6 +1,6 @@
 # Nextfolio
 
-Ivan's personal web site or Portfolio like backend baker & dev
+Ivan's personal web site or Blog
 
 
 Stack: React / Next / Tailwind
