@@ -82,6 +82,16 @@ React / Next.js / Tailwind and more.<br/>
   </Link>
   .
 </p>
+<hr/>
+        <p className="text-sm">Generally, this website is about tech and programming, though music [ Ivan Stereotekk ] <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> is also a big part of it — it’s connected to tech and coding as well, and yes, it’s a huge part of me.</Link></p>
+        <p>
+          Музыка и видео    
+            <Link href="https://www.youtube.com/@stereotekk_ivan"> на YouTube.</Link> <br/>
+          
+
+        </p>
+
+
 <pre>
 <AlertDialogGetContact/>
 </pre>
