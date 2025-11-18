@@ -150,6 +150,18 @@ React / Next.js / Tailwind и др.<br/>
           </Link>
           .
         </p>
+        <hr/>
+        <p className="text-sm">В целом блог посвящен технологиям и программированию, но  музыка [ Ivan Stereotekk ] <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> это тоже технологии, код, и несомненно часть меня.</Link></p>
+        <p>
+          Музыка и видео    
+            <Link href="https://www.youtube.com/@stereotekk_ivan"> на YouTube.</Link> <br/>
+          
+
+        </p>
+
+
+
+
         </section>
     
 

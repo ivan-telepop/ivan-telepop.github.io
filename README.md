@@ -11,3 +11,7 @@ Pages:
 - https://ivan-telepop.github.io/blog
 - https://ivan-telepop.github.io/projects
 - https://ivan-telepop.github.io/photos
+
+---
+
+Сайт разрабатывался на фреймворке Next.js
