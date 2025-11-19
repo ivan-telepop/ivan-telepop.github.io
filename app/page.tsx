@@ -83,7 +83,7 @@ React / Next.js / Tailwind and more.<br/>
   .
 </p>
 <hr/>
-        <p className="text-sm">Generally, this website is about tech and programming, though music [ Ivan Stereotekk ] <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> is also a big part of it — it’s connected to tech and coding as well, and yes, it’s a huge part of me.</Link></p>
+        <p className="text-sm">Electronic<Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> music.</Link></p>
         <p>
           Music & Video    
             <Link href="https://www.youtube.com/@stereotekk_ivan"> on YouTube.</Link> <br/>
@@ -161,7 +161,7 @@ React / Next.js / Tailwind и др.<br/>
           .
         </p>
         <hr/>
-        <p className="text-sm">В целом блог посвящен технологиям и программированию, но  музыка [ Ivan Stereotekk ] <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> это тоже технологии, код, и несомненно часть меня.</Link></p>
+        <p className="text-sm">Электронная <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> музыка.</Link></p>
         <p>
           Музыка и видео    
             <Link href="https://www.youtube.com/@stereotekk_ivan"> на YouTube.</Link> <br/>
