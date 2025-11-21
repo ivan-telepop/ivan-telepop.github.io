@@ -152,9 +152,7 @@ React / Next.js / Tailwind и др.<br/>
 
 </cite>
 <hr/>
-<p>
 
-<br/>
 <p className="mb-8 text-xl font-medium tracking-tight">
   Книги и серии книг которые мне нравятся: 
 </p>
