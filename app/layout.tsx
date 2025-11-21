@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { ThemeProvider } from "./components/theme-switch";
 import { metaData } from "./config";
+import MyIPLogger from "./components/ip-logging";
 
 export const metadata: Metadata = {
   metadataBase: new URL(metaData.baseUrl),
@@ -85,6 +86,7 @@ export default function RootLayout({
             <Navbar />
             {children}
             <Footer />
+            <MyIPLogger/>
             <Analytics />
             <SpeedInsights />
           </main>

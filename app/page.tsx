@@ -4,6 +4,7 @@ import VideoYoutube from "./components/videocom";
 import Link from "next/link";
 import AlertDialogGetContact from "./components/alertdialoguecomp"
 
+
 export default function Page() {
 
   return (
@@ -19,6 +20,7 @@ export default function Page() {
           priority
         />
       </a>
+      
 
     
       <div className="prose prose-neutral dark:prose-invert">
@@ -234,5 +236,6 @@ React / Next.js / Tailwind и др.<br/>
       </pre>  
       </div>
     </section>
+    
   );
 }
