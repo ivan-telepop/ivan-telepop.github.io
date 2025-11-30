@@ -197,7 +197,7 @@ React / Next.js / Tailwind и др.<br/>
     
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">РЕЗЮМЕ</Link>.
+          <Link href="https://drive.google.com/file/d/1DiXbcVq_1_tNY99dC127vrxlRSEBgsi4/view?usp=sharing">РЕЗЮМЕ</Link>.
         </p>
         <p>
           Рекомендация с места работы{" "}
@@ -207,7 +207,7 @@ React / Next.js / Tailwind и др.<br/>
 
         <p>
           English Version of my {" "}
-          <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">Curriculum Vitae (CV).</Link>.
+          <Link href="https://drive.google.com/file/d/1DiXbcVq_1_tNY99dC127vrxlRSEBgsi4/view?usp=sharing">Curriculum Vitae (CV).</Link>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
@@ -217,7 +217,7 @@ React / Next.js / Tailwind и др.<br/>
           .
         </p>
         <hr/>
-        <p className="text-sm">Электронная <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> музыка.</Link></p>
+        <p className="text-sm">Horoshaya Электронная <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> музыка.</Link></p>
         <p>
           Музыка и видео    
             <Link href="https://www.youtube.com/@stereotekk_ivan"> на YouTube.</Link> <br/>
