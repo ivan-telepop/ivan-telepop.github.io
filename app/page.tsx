@@ -77,6 +77,9 @@ React / Next.js / Tailwind and more.<br/>
 </p>
 
 
+
+
+
 <p>
   If you need access to my{" "}
   <Link href="https://github.com/ivan-telepop" target="_blank">
@@ -84,6 +87,16 @@ React / Next.js / Tailwind and more.<br/>
   </Link>
   .
 </p>
+
+<p>
+          Telegram Channel {" "}
+          <Link href="https://t.me/yaprogrammerTrue" target="_blank">
+          coding and tech.
+          </Link>
+        
+</p>
+
+
 <hr/>
         <p className="text-sm">Electronic<Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> music.</Link></p>
         <p>
@@ -216,6 +229,15 @@ React / Next.js / Tailwind и др.<br/>
           </Link>
           .
         </p>
+
+        <p>
+          Канал в тележке {" "}
+          <Link href="https://t.me/yaprogrammerTrue" target="_blank">
+            про код и вообще.
+          </Link>
+          .
+        </p>
+
         <hr/>
         <p className="text-sm">Horoshaya Электронная <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> музыка.</Link></p>
         <p>
