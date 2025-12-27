@@ -101,7 +101,7 @@ React / Next.js / Tailwind and more.<br/>
         <p className="text-sm">Electronic<Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> music.</Link></p>
         <p>
           Music & Video    
-            <Link href="https://www.youtube.com/@stereotekk_ivan"> on YouTube.</Link> <br/>
+            <Link href="https://www.youtube.com/@Ivan_Stereotekk"> on YouTube.</Link> <br/>
           
 
         </p>
@@ -242,10 +242,11 @@ React / Next.js / Tailwind и др.<br/>
         <p className="text-sm">Horoshaya Электронная <Link href="https://www.beatport.com/artist/ivan-stereotekk/394712?srsltid=AfmBOopvGWILHl4jCFXtisaIioeAO8oVlLeYfrO93EezsY_yxMHWGARO"> музыка.</Link></p>
         <p>
           Музыка и видео    
-            <Link href="https://www.youtube.com/@stereotekk_ivan"> на YouTube.</Link> <br/>
+            <Link href="https://www.youtube.com/@Ivan_Stereotekk"> на YouTube.</Link> <br/>
           
 
         </p>
+        <Link href="https://share.google/rOHr360Y5tcRxlalM"> Web Area.</Link>
 
 
 
