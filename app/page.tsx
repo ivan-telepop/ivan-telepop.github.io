@@ -165,12 +165,6 @@ Python разработчик, с опытом работы в технолог�
 </p>
 
 
-{/* Need corrections */}
-<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-  <iframe height={180} width={320} src="/photos/IMG_666.mp4" title="Ivan Goncharov - Job Seeker Video Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-
 <pre className="prose prose-neutral dark:prose-invert ">
 Мой основной стек: <br/>
 Python, FastAPI, Django, Docker<br/>
