@@ -166,7 +166,7 @@ React / Next.js / Tailwind и др.<br/>
 
         <p>
           English Version of my {" "}
-          <Link href="https://drive.google.com/file/d/1DiXbcVq_1_tNY99dC127vrxlRSEBgsi4/view?usp=sharing">Curriculum Vitae (CV).</Link>.
+          <Link href="https://docs.google.com/document/d/1QljPYQ8mr3IWT8JNPk9ZKqR9dtTTBKNJqq5565NNbHU/edit?usp=sharing">Curriculum Vitae (CV).</Link>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}
