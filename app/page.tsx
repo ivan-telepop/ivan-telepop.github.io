@@ -253,7 +253,7 @@ React / Next.js / Tailwind и др.<br/>
 </p>
 
 
-<pre classname='prose prose-neutral dark:prose-invert text-sm' >
+<pre classname='prose prose-neutral dark:prose-invert text-sm'>
 <p>Друзья и сочувствующие, и гости этого уютного блога ! </p>
 С апреля месяца прошлого года я в поиске вакансии и любой возможности заработать. <br/>
 Мне 46, у меня есть дети, нет собственного жилья, а по этому мне жизненно важно иметь постоянное место работы. <br/>
