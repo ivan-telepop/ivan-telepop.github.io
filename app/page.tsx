@@ -112,7 +112,7 @@ React / Next.js / Tailwind and more.<br/>
 </pre>
 
 <hr/>
-<pre classname='prose prose-neutral dark:prose-invert text-sm'>
+<pre className='prose prose-neutral dark:prose-invert text-sm'>
 <p>
   Dear friends, sympathizers, and visitors to this cozy blog! 
 </p>
@@ -246,11 +246,7 @@ React / Next.js / Tailwind и др.<br/>
 
         </p>
 </pre>
-<p>
-  <br/>
-  <br/>
-  <br/>
-</p>
+
 
 
 <pre className='prose prose-neutral dark:prose-invert text-sm'>
