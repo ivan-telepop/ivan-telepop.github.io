@@ -111,6 +111,26 @@ React / Next.js / Tailwind and more.<br/>
 <AlertDialogGetContact/>
 </pre>
 
+<hr/>
+<pre>
+<p>
+  Dear friends, sympathizers, and visitors to this cozy blog! 
+  </p>
+Since April of last year, I've been searching for a job and any opportunity to earn money.
+I'm 46, have children, and don't own a home, so having a steady job is vital. Without a salary, my life becomes extremely difficult. I can't afford paying rent, bills, or my children's needs, and living without an income is simply impossible in my situation. <br/>
+Last April, I was forced to quit my job due to pressure from my colleagues, and the company before my last job simply stopped paying me, citing legal proceedings and other nonsense as the reason. The construction company I worked for still hasn't paid me three months' salary, and apparently has no intention of doing so. <br/>
+As a colleague and employee, I'm diligent, I'm well versed in my profession, I enjoy it, and I work very hard to be a professional, even though I never had a relevant education. I'm a self-taught professional who enjoys working in IT. <br/>
+As I mentioned above, since April, I've responded to over 1,000 questions. After quitting my last job, wanting to save a little money on housing, I moved to Tbilisi, Georgia, the city I grew up in and love as a child. <br/>
+Housing in Tbilisi is cheaper than in Moscow, and without an income during my job search, this has been a great saving and a great help for me. <br/>
+Perhaps I'm being overly suspicious, but I couldn't help but notice a stark contrast in the response rate to my resumes and job postings. Almost immediately after leaving Russia, all my responses were rejected. <br/>
+Although normally, my search was always lively, with communication, interesting interviews, and test assignments, this was a stark contrast and alarming. <br/>
+I don't want to delve into conspiracy theories about my situation, but it was clear from everything that my accounts were clearly limited. And upon returning to Moscow, I was finally convinced that finding a job, even offline, was simply impossible. <br/>
+No one was hiring me! Or they hire, and then suddenly don't, and there are variations. <br/>
+Judging by the behavior of the hiring managers—their sudden changes of heart, refusal to answer the phone, and sometimes their mocking attitude—it makes me feel as if I'm in "development," and they're pressuring me or simply bullying me. <br/>
+Perhaps this has to do with my attitude toward world events, my views on humanism, open education, values, and Open Source, which I've sometimes moderately discussed on social media. Perhaps there are other reasons I'm unaware of. I don't have a clear answer, only desperation and a desire to end this! <br/>
+
+</pre>
+
 </div>
 </section>
 <hr/>
@@ -207,6 +227,32 @@ React / Next.js / Tailwind и др.<br/>
 
         </p>
 </pre>
+<hr/>
+<pre>
+<p>Друзья и сочувствующие, и гости этого уютного блога ! </p>
+С апреля месяца прошлого года я в поиске вакансии и любой возможности заработать. <br/>
+Мне 46, у меня есть дети, нет собственного жилья, а по этому мне жизненно важно иметь постоянное место работы. <br/>
+Если я не получаю зарплату, моя жизнь становится весьма сложной. Я не могу оплачивать жилье, не имею возможности оплачивать счета и потребности детей, и в целом жить без дохода в моем положении невозможно.<br/>
+В апреле прошлого года мне пришлось уволится с работы из-за давления в коллективе, а в компании перед последним местом работы, мне просто перестали платить зарплату объясняя задержку судебными тяжбами в фирме и разной чепухой. <br/>
+Строительная компания в которой я работал до сих пор не выплатила мне три месячных оклада, по всей видимости не собирается.
+Как коллега или работник я исполнителен, неплохо разбираюсь в своей профессии, мне нравится она, и я очень много делаю для того чтобы быть профессионалом  хотя никогда не имел профильного образования. 
+Я самоучка которому нравится работать в сфере  IT. <br/>
+Как я говорил выше, с апреля месяца я совершил более 1000 откликов а после увольнения с последнего места работы, желая немного сэкономить на жилье я уехал в Грузию в Тбилиси, в город в котором вырос и люблю как город детства. <br/>
+В Тбилиси жилье дешевле чем в Москве, не имея дохода на период поиска работы для меня это отличная экономия и подспорье. <br/>
+Возможно я чрезмерно мнительный но я не мог не заметить очень сильный контраст в активности откликов на мои резюме и запросы вакансий. <br/>
+Почти сразу как я выехал из России все мои отклики получали только отказ. Хотя в обычной ситуации мой поиск всегда был живым, с общением, с интересными интервью, тестовыми заданиями, что очень сильно контрастировало и настораживало. <br/>
+Я не хочу погружаться свою ситуацию в конспирологию но по всему было заметно что мои аккаунты имеют явное ограничение. <br/>
+А по возвращению в Москву я окончательно убедился что найти работу даже в оффлайне просто невозможно. <br/>
+Меня просто никуда не берут ! Или - берут, а потом резко - не берут и вариации.<br/>
+По поведению нанимающих, резкая смена их намерений, отказ брать трубку, порой издевательское отношение наводит меня на мысли что словно я в “разработке”, а на меня таким способом оказывают давление или просто издеваются. <br/>
+Возможно это связано с моим отношением к событиям в мире, с моими взглядом на гуманизм, открытость образования, ценности, OpenSource, о чем иногда умеренно дискутировал в социальных сетях.  <br/>
+Возможно есть другие причины о которых я не в курсе.  <br/>
+У меня нет ясного ответа, есть только отчаяние и желание закончить это!<br/>
+
+</pre>
+
+
+
     </section>
     
   );
