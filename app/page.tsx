@@ -112,10 +112,10 @@ React / Next.js / Tailwind and more.<br/>
 </pre>
 
 <hr/>
-<pre>
+<pre classname='prose prose-neutral dark:prose-invert text-sm'>
 <p>
   Dear friends, sympathizers, and visitors to this cozy blog! 
-  </p>
+</p>
 Since April of last year, I've been searching for a job and any opportunity to earn money.
 I'm 46, have children, and don't own a home, so having a steady job is vital. Without a salary, 
 my life becomes extremely difficult. I can't afford paying rent, bills, or my children's needs, and 
@@ -246,8 +246,14 @@ React / Next.js / Tailwind и др.<br/>
 
         </p>
 </pre>
-<hr/>
-<pre>
+<p>
+  <br/>
+  <br/>
+  <br/>
+</p>
+
+
+<pre classname='prose prose-neutral dark:prose-invert text-sm' >
 <p>Друзья и сочувствующие, и гости этого уютного блога ! </p>
 С апреля месяца прошлого года я в поиске вакансии и любой возможности заработать. <br/>
 Мне 46, у меня есть дети, нет собственного жилья, а по этому мне жизненно важно иметь постоянное место работы. <br/>
@@ -277,7 +283,7 @@ React / Next.js / Tailwind и др.<br/>
 Возможно это связано с моим отношением к событиям в мире, с моими взглядом на гуманизм, открытость образования, 
 ценности, OpenSource, о чем иногда умеренно дискутировал в социальных сетях.  <br/>
 Возможно есть другие причины о которых я не в курсе.  <br/>
-У меня нет ясного ответа, есть только отчаяние и желание закончить это!<br/>
+У меня нет ясного ответа, есть только отчаяние и желание закончить это! <br/>
 
 </pre>
 
