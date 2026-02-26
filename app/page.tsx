@@ -247,9 +247,8 @@ React / Next.js / Tailwind и др.<br/>
         </p>
 </pre>
 
-
-
-<pre className='prose prose-neutral dark:prose-invert text-sm'>
+<div>
+  <pre className="prose prose-neutral dark:prose-invert text-sm">
 <p>
   Друзья и сочувствующие, и гости этого уютного блога ! </p>
 <p>С апреля месяца прошлого года я в поиске вакансии и любой возможности заработать. </p> 
@@ -281,8 +280,11 @@ React / Next.js / Tailwind и др.<br/>
 ценности, OpenSource, о чем иногда умеренно дискутировал в социальных сетях.  <br/>
 Возможно есть другие причины о которых я не в курсе.  <br/>
 У меня нет ясного ответа, есть только отчаяние и желание закончить это! <br/>
-
 </pre>
+
+</div>
+
+
 
     </section>
     
