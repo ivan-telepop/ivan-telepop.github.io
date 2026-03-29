@@ -1,0 +1,114 @@
+---
+title: "Next.js - React - JavaScript - TypeScript."
+publishedAt: "2025-06-18"
+summary: "frontend"
+tags: "programming, paradigms, agents"
+image: "/photos/iv-gon.png"
+---
+
+Решил мемоизировать некоторые знания в области фронтенд разработки, в частности React / Next.js / TypeScript. Наблюдая за фреймворком очевидно что он эволюционирует, но базовые вещи остаются почти такими-же.  Лично у меня бывает так что поняв идею, попробовав поработать с ней, написав что нибудь в реальном проекте, через пол года "не работы" знания  начинают размываться.  Может быть это моя персональная проблема, может нет. Чем чаще повторяю предмет, тем легче работать "на память" не погружаясь глубоко в документацию. Хотя сам факт легкой неуверенности в себе всегда оставляет шанс перепроверить свои знания, освежить их и не ошибиться из-за ложной уверенности. Так бывает, человеческая память далеко не совершенна, колебаться на интервью из-за легкой забывчивости, перепроверять себя а потом отвечать или писать код, это мой путь ! 
+В моем положении когда на память не всегда можно положиться, лучшее что можно сделать это периодами повторять идеи, сделать пару памяток для подручного использования. Собственно этот текст и есть памятка себе, но раз вы читаете, то значит помогло или поможет вам.  
+Ставим цели, декомпозируем на шаги , освежаем знания, реализуем !
+#### Server Side Rendering - Client Side Rendering
+Цель понять как работает концепция Server Side Rendering и Client side Rendering.
+Интересен сценарий применения двух компонентов 'use server' & 'use client' в одном DOM дереве.
+В добавок хочется вспомнить написав формы и их обработку, отправка данных методом fetch() POST json rest api . Тут пример простой синтаксис без импортов сторонних библиотек (ванильный JS ).
+
+Для этого делаю страничку с 'use server' компонентом который получает данные с внешнего API.  - http://localhost:8000/users
+Выводит эти данные на эту же страницу и на той же странице рядом или ниже должен присутствовать JSX 'use client' компонент который отрабатывает логику отправки двух (login: string / password: string) форм и  кнопарь "submit" хендлер. Все это должно быть на одной странице с использованием импортируемых компонентов. Так нагляднее просто.
+Компонент SSR в файле server-side.js, второй следовательно client-side.js
+
+Server sede component:
+
+```javascript
+
+'use server'
+
+export default async function ServerSide() {
+  const res = await fetch('http://localhost:8000/users', {
+    cache: 'no-store'
+  })
+
+  const users = await res.json()
+
+  return (
+    <div>
+      <h3>Users (SSR)</h3>
+      <ul>
+        {users.map((u, i) => (
+          <li key={i}>{u.login}</li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+
+
+```
+
+
+client component:
+```javascript
+'use client'
+
+import { useState } from 'react'
+
+export default function ClientSide() {
+  const [login, setLogin] = useState('')
+  const [password, setPassword] = useState('')
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    await fetch('http://localhost:8000/users', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ login, password })
+    })
+
+    setLogin('')
+    setPassword('')
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h3>Login it !</h3>
+
+      <input
+        value={login}
+        onChange={(e) => setLogin(e.target.value)}
+        placeholder="login"
+      />
+
+      <input
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        placeholder="password"
+        type="password"
+      />
+
+      <button type="submit">Send</button>
+    </form>
+  )
+}
+
+
+```
+
+Page with imported components:
+
+```javascript
+import ServerSide from './server-side'
+import ClientSide from './client-side'
+
+export default function Page() {
+  return (
+    <div>
+      <ServerSide />
+      <ClientSide />
+    </div>
+  )
+}
+
+```
