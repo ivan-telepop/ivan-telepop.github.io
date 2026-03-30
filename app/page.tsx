@@ -207,7 +207,11 @@ React / Next.js / Tailwind и др.<br/>
         </p>
 </pre>
 
-
+<div>
+  <pre>
+    <i>Za posledniy period svoey jizni moi mozg sovershil prijok. Kuda poka neponyatno... Nujno inogda ostanovitsa i ponyat kuda soversil prijok twoi mozg. A potom prigat dalshe...</i>
+  </pre>
+</div>
 
 
     </section>
