@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { TbSend2 } from 'react-icons/tb'
 
-
+// Тут по идее написан чат, но Гитхуб не публикует динамические сайты. По этому статическая версия сайта не содержит "нейронного", в следствии чаго с ним не потрещать. 
 export default function MessageInput({
   onSend,
   loading,

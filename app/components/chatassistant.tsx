@@ -4,6 +4,7 @@ import MessageList from 'app/components/messagelist'
 import MessageInput from 'app/components/messageinput';
 import { Pinecone } from '@pinecone-database/pinecone'
 
+// Тут по идее написан чат, но Гитхуб не публикует динамические сайты. По этому статическая версия сайта не содержит "нейронного", в следствии чаго с ним не потрещать.  
 
 const API_KEY = 'pcsk_3CS6nF_KwcT7rt8xMkE2urdEj4JyzijnsTHinr53QfmEJYNabn3x72bYT8xh9RcoUkZAEn'
 // Basic setup for Pinecone

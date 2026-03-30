@@ -9,6 +9,7 @@ const navItems = {
   // "/videosurveillance": {name: "vss*"}
 };
 
+
 export function Navbar() {
   return (
     <nav className="lg:mb-16 mb-12 py-5">

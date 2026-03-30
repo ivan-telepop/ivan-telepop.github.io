@@ -4,7 +4,7 @@ import MessageList from 'app/components/messagelist'
 import MessageInput from 'app/components/messageinput';
 
 
-
+// Тут по идее написан чат, но Гитхуб не публикует динамические сайты. По этому статическая версия сайта не содержит "нейронного", в следствии чаго с ним не потрещать. 
 type ChatComponentProps = {
   title?: string 
   inputPlaceholder?: string

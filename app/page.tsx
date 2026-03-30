@@ -208,8 +208,12 @@ React / Next.js / Tailwind и др.<br/>
 </pre>
 
 <div>
+  <br/>
+  <br/>
+  <br/>
   <pre>
-    <i>Za posledniy period svoey jizni moi mozg sovershil prijok. Kuda poka neponyatno... Nujno inogda ostanovitsa i ponyat kuda soversil prijok twoi mozg. A potom prigat dalshe...</i>
+    <i className="text-sm from-slate-500 pt-20">Za posledniy period svoey jizni moi mozg sovershil prijok. <br/>Kuda poka neponyatno...<br/>
+     Nujno inogda ostanovitsa i ponyat kuda soversil prijok twoi mozg. A potom prigat dalshe...</i>
   </pre>
 </div>
 
