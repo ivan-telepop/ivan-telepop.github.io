@@ -3,7 +3,7 @@ title: "Next.js - React - JavaScript - TypeScript."
 publishedAt: "2026-03-30"
 summary: "frontend"
 tags: "programming, paradigms, agents"
-image: "/photos/iv-gon.png"
+image: "/images/react-next.png"
 ---
 
 Решил мемоизировать некоторые знания в области фронтенд разработки, в частности React / Next.js / TypeScript. Наблюдая за фреймворком очевидно что он эволюционирует, но базовые вещи остаются почти такими-же.  Лично у меня бывает так что поняв идею, попробовав поработать с ней, написав что нибудь в реальном проекте, через пол года "не работы" знания  начинают размываться.  Может быть это моя персональная проблема, может нет. Чем чаще повторяю предмет, тем легче работать "на память" не погружаясь глубоко в документацию. Хотя сам факт легкой неуверенности в себе всегда оставляет шанс перепроверить свои знания, освежить их и не ошибиться из-за ложной уверенности. Так бывает, человеческая память далеко не совершенна, колебаться на интервью из-за легкой забывчивости, перепроверять себя а потом отвечать или писать код, это мой путь ! 
@@ -15,16 +15,16 @@ image: "/photos/iv-gon.png"
 В добавок хочется вспомнить написав формы и их обработку, отправка данных методом fetch() POST json rest api . Тут пример простой синтаксис без импортов сторонних библиотек (ванильный JS ).
 
 Для этого делаю страничку с 'use server' компонентом который получает данные с внешнего API.  - http://localhost:8000/users
-Выводит эти данные на эту же страницу и на той же странице рядом или ниже должен присутствовать JSX 'use client' компонент который отрабатывает логику отправки двух (login: string / password: string) форм и  кнопарь "submit" хендлер. Все это должно быть на одной странице с использованием импортируемых компонентов. Так нагляднее просто.
+Выводит эти данные на эту же страницу и на той же странице рядом должен присутствовать JSX 'use client' компонент который отрабатывает логику отправки двух (login: string / password: string) форм и  кнопарь "submit" хендлер. Все это должно быть на одной странице с использованием импортируемых компонентов. Так нагляднее просто.
 Компонент SSR в файле server-side.js, второй следовательно client-side.js
 
-Server sede component:
+Server sede component - получает юзеров в с внешнего урла:
 
 ```javascript
 
 'use server'
 
-export default async function ServerSide() {
+export default async function GetUsersServerSide() {
   const res = await fetch('http://localhost:8000/users', {
     cache: 'no-store'
   })
@@ -54,7 +54,7 @@ client component:
 
 import { useState } from 'react'
 
-export default function ClientSide() {
+export default function FormSubbmitClientSide() {
   const [login, setLogin] = useState('')
   const [password, setPassword] = useState('')
 
@@ -95,14 +95,19 @@ export default function ClientSide() {
 
 
 ```
+Компонент код которого подписан как `use client` ∆ обрабатывается на стороне клиента в браузере.
+То есть когда меняются данные в формах, срабатывает хендлер, элементы внутри компонента перерендеривается, срабатывает логика.
+Но большая часть страницы была отрисована на сервере раннее, и отдана в готовом виде. 
+В ней не было изменений, значит и нет необходимости перерендеривать лишнее. Это существенно ускоряет и облегчает программу.
 
-Page with imported components:
+
+Index Page with imported components - главная страничка с импортированными внутрь клиентским и серверным JSX:
 
 ```javascript
 import ServerSide from './server-side'
 import ClientSide from './client-side'
 
-export default function Page() {
+export default function IndexPage() {
   return (
     <div>
       <ServerSide />
