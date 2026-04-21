@@ -212,8 +212,8 @@ React / Next.js / Tailwind и др.<br/>
   <br/>
   <br/>
   <pre>
-    <i className="text-sm from-slate-500 pt-20">Za posledniy period svoey jizni moi razum sovershil prijok. <br/>Kuda poka neponyatno...<br/>
-     Nujno inogda ostanovitsa i ponyat kuda soversil prijok twoi razum. A potom prigat dalshe...</i>
+    <i className="text-sm from-slate-500 pt-20">Буду рад сотрудничеству. <br/>Разработаю для вас и вашего бизнеса что нибудь очень полезное!<br/>
+     <Link href='https://t.me/yaprogrammertrue'>Kанал в телеграм в котором собираю информацию про то что самому интереснов сфере IT.</Link></i>
   </pre>
 </div>
 
