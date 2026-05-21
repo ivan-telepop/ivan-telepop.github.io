@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 export default function Photos() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Photos</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Random shots</h1>
       <ImageGrid
         columns={3}
         images={[
           {
-            src: "/pics/IMG_0006.JPG",
+            src: "/pics/IMG_0001.png",
             alt: "Posing well",
             href: "https://ableton.com",
           },
@@ -25,48 +25,48 @@ export default function Photos() {
             href: "https://mixcult.bandcamp.com/album/self-object-id-ep",
           },
           {
-            src: "/pics/IMG_0027.jpg",
+            src: "/pics/IMG_0002.png",
             alt: "code",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0134.jpg",
+            src: "/pics/IMG_0003.png",
             alt: "Leto",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0135.jpg",
+            src: "/pics/IMG_0004.png",
             alt: "Graph",
             href: "https://github.com/ivanIStereotekk",
           },
           
           {
-            src: "/pics/IMG_0142.jpg",
+            src: "/pics/IMG_0005.png",
             alt: "Tbilisi",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0143.jpg",
+            src: "/pics/IMG_0006.png",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0147.jpg",
+            src: "/pics/IMG_0007.png",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0152.jpg",
+            src: "/pics/IMG_1.JPG",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0153.jpg",
+            src: "/pics/IMG_2.JPG",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/pics/IMG_0167.jpg",
+            src: "/pics/IMG_3.JPG",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
@@ -74,18 +74,28 @@ export default function Photos() {
       />
 
       <ImageGrid
-        columns={2}
+        columns={4}
         images={[
-          { src: "/pics/IMG_0167.jpg", alt: "Posing" },
-          { src: "/pics/IMG_0153.jpg", alt: "Tree" },
-          { src: "/pics/IMG_0152.jpg", alt: "Studio" },
-          { src: "/pics/IMG_0147.jpg", alt: "Ivan" },
-          { src: "/pics/IMG_0143.jpg", alt: "Ableton" },
-          { src: "/pics/IMG_0142.jpg", alt: "VS-Code" },
-          { src: "/pics/IMG_0135.jpg", alt: "Plane" },
-          { src: "/pics/IMG_0134.jpg", alt: "null" },
-          { src: "/pics/IMG_0027.jpg", alt: "Plane" },
-          { src: "/pics/IMG_0006.JPG", alt: "Plane" },
+          { src: "/pics/IMG_1.JPG", alt: "Posing" },
+          { src: "/pics/IMG_2.JPG", alt: "Tree" },
+          { src: "/pics/IMG_0001.png", alt: "Studio" },
+          { src: "/pics/IMG_0002.png", alt: "Ivan" },
+          { src: "/pics/IMG_0003.png", alt: "Ableton" },
+          { src: "/pics/IMG_0004.png", alt: "VS-Code" },
+          { src: "/pics/IMG_0005.png", alt: "Plane" },
+          { src: "/pics/IMG_0006.png", alt: "null" },
+          { src: "/pics/IMG_0007.png", alt: "Plane" },
+          { src: "/pics/IMG_3.JPG", alt: "Plane" },
+          { src: "/pics/IMG_1.JPG", alt: "Posing" },
+          { src: "/pics/IMG_2.JPG", alt: "Tree" },
+          { src: "/pics/IMG_0001.png", alt: "Studio" },
+          { src: "/pics/IMG_0002.png", alt: "Ivan" },
+          { src: "/pics/IMG_0003.png", alt: "Ableton" },
+          { src: "/pics/IMG_0004.png", alt: "VS-Code" },
+          { src: "/pics/IMG_0005.png", alt: "Plane" },
+          { src: "/pics/IMG_0006.png", alt: "null" },
+          { src: "/pics/IMG_0007.png", alt: "Plane" },
+          { src: "/pics/IMG_3.JPG", alt: "Plane" },
         ]}
       />
 

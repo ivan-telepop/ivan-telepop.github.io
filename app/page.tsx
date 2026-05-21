@@ -11,7 +11,7 @@ export default function Page() {
     <section>
       <a href={socialLinks.twitter} target="_blank">
         <Image
-          src="/pics/IMG_0134.jpg"
+          src="/pics/IMG_0004.png"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
@@ -122,10 +122,11 @@ React / Next.js / Tailwind and more.<br/>
 </h1>
 
 <p>
-Python разработчик, с опытом работы в технологичных сферах. 
+Вы находитесь на моей странице, в моем личном блоге. Я немного музыкант, немного Python разработчик, немного с опытом работы в разных технологичных сферах. 
 </p>
+<p>Я продолжаю жить и работать, учится, а эта страница в какой то мере отражает мою персональную динамику.</p>
 <p>
-Работал в проектах, решая задачи по построению и оптимизации backend-систем для бизнеса и инфраструктуры.
+В течении жизни занимался разным, но в целом все про технологии, Computer Science, и разную электронику. Работал в проектах, решая задачи по построению и оптимизации backend-систем для бизнеса и инфраструктуры.
 </p>
 
 
