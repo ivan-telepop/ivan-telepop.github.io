@@ -15,7 +15,7 @@ export default function Photos() {
         columns={3}
         images={[
           {
-            src: "/photos/dog.jpg",
+            src: "/public/pics/IMG_0006.JPG",
             alt: "Posing well",
             href: "https://ableton.com",
           },
@@ -25,28 +25,48 @@ export default function Photos() {
             href: "https://mixcult.bandcamp.com/album/self-object-id-ep",
           },
           {
-            src: "/photos/vs-code.png",
+            src: "/public/pics/IMG_0027.jpg",
             alt: "code",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/photos/ableton.png",
+            src: "/public/pics/IMG_0134.jpg",
             alt: "Leto",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/photos/bf-algo.png",
+            src: "/public/pics/IMG_0135.jpg",
             alt: "Graph",
             href: "https://github.com/ivanIStereotekk",
           },
           
           {
-            src: "/photos/tb-03.jpg",
+            src: "/public/pics/IMG_0142.jpg",
             alt: "Tbilisi",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/photos/tree.png",
+            src: "/public/pics/IMG_0143.jpg",
+            alt: "tree",
+            href: "https://github.com/ivanIStereotekk",
+          },
+          {
+            src: "/public/pics/IMG_0147.jpg",
+            alt: "tree",
+            href: "https://github.com/ivanIStereotekk",
+          },
+          {
+            src: "/public/pics/IMG_0152.jpg",
+            alt: "tree",
+            href: "https://github.com/ivanIStereotekk",
+          },
+          {
+            src: "/public/pics/IMG_0153.jpg",
+            alt: "tree",
+            href: "https://github.com/ivanIStereotekk",
+          },
+          {
+            src: "/public/pics/IMG_0167.jpg",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
@@ -56,13 +76,16 @@ export default function Photos() {
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/dog.jpg", alt: "Posing" },
-          { src: "/photos/tree.png", alt: "Tree" },
-          { src: "/photos/pic1.jpg", alt: "Studio" },
-          { src: "/photos/ew-01.jpg", alt: "Ivan" },
-          { src: "/photos/ableton.png", alt: "Ableton" },
-          { src: "/photos/vs-code.png", alt: "VS-Code" },
-          { src: "/photos/fl-02.jpg", alt: "Plane" },
+          { src: "/public/pics/IMG_0167.jpg", alt: "Posing" },
+          { src: "/public/pics/IMG_0153.jpg", alt: "Tree" },
+          { src: "/public/pics/IMG_0152.jpg", alt: "Studio" },
+          { src: "/public/pics/IMG_0147.jpg", alt: "Ivan" },
+          { src: "/public/pics/IMG_0143.jpg", alt: "Ableton" },
+          { src: "/public/pics/IMG_0142.jpg", alt: "VS-Code" },
+          { src: "/public/pics/IMG_0135.jpg", alt: "Plane" },
+          { src: "/public/pics/IMG_0134.jpg", alt: "null" },
+          { src: "/public/pics/IMG_0027.jpg", alt: "Plane" },
+          { src: "/public/pics/IMG_0006.JPG", alt: "Plane" },
         ]}
       />
 
