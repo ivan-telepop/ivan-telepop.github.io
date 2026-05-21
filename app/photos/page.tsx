@@ -15,7 +15,7 @@ export default function Photos() {
         columns={3}
         images={[
           {
-            src: "/public/pics/IMG_0006.JPG",
+            src: "/pics/IMG_0006.JPG",
             alt: "Posing well",
             href: "https://ableton.com",
           },
@@ -25,48 +25,48 @@ export default function Photos() {
             href: "https://mixcult.bandcamp.com/album/self-object-id-ep",
           },
           {
-            src: "/public/pics/IMG_0027.jpg",
+            src: "/pics/IMG_0027.jpg",
             alt: "code",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0134.jpg",
+            src: "/pics/IMG_0134.jpg",
             alt: "Leto",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0135.jpg",
+            src: "/pics/IMG_0135.jpg",
             alt: "Graph",
             href: "https://github.com/ivanIStereotekk",
           },
           
           {
-            src: "/public/pics/IMG_0142.jpg",
+            src: "/pics/IMG_0142.jpg",
             alt: "Tbilisi",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0143.jpg",
+            src: "/pics/IMG_0143.jpg",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0147.jpg",
+            src: "/pics/IMG_0147.jpg",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0152.jpg",
+            src: "/pics/IMG_0152.jpg",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0153.jpg",
+            src: "/pics/IMG_0153.jpg",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
           {
-            src: "/public/pics/IMG_0167.jpg",
+            src: "/pics/IMG_0167.jpg",
             alt: "tree",
             href: "https://github.com/ivanIStereotekk",
           },
@@ -76,16 +76,16 @@ export default function Photos() {
       <ImageGrid
         columns={2}
         images={[
-          { src: "/public/pics/IMG_0167.jpg", alt: "Posing" },
-          { src: "/public/pics/IMG_0153.jpg", alt: "Tree" },
-          { src: "/public/pics/IMG_0152.jpg", alt: "Studio" },
-          { src: "/public/pics/IMG_0147.jpg", alt: "Ivan" },
-          { src: "/public/pics/IMG_0143.jpg", alt: "Ableton" },
-          { src: "/public/pics/IMG_0142.jpg", alt: "VS-Code" },
-          { src: "/public/pics/IMG_0135.jpg", alt: "Plane" },
-          { src: "/public/pics/IMG_0134.jpg", alt: "null" },
-          { src: "/public/pics/IMG_0027.jpg", alt: "Plane" },
-          { src: "/public/pics/IMG_0006.JPG", alt: "Plane" },
+          { src: "/pics/IMG_0167.jpg", alt: "Posing" },
+          { src: "/pics/IMG_0153.jpg", alt: "Tree" },
+          { src: "/pics/IMG_0152.jpg", alt: "Studio" },
+          { src: "/pics/IMG_0147.jpg", alt: "Ivan" },
+          { src: "/pics/IMG_0143.jpg", alt: "Ableton" },
+          { src: "/pics/IMG_0142.jpg", alt: "VS-Code" },
+          { src: "/pics/IMG_0135.jpg", alt: "Plane" },
+          { src: "/pics/IMG_0134.jpg", alt: "null" },
+          { src: "/pics/IMG_0027.jpg", alt: "Plane" },
+          { src: "/pics/IMG_0006.JPG", alt: "Plane" },
         ]}
       />
 
