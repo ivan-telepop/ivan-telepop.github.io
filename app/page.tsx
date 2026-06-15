@@ -24,20 +24,20 @@ export default function Page() {
 
     
       <div className="prose prose-neutral dark:prose-invert">
-<section id="eng">
+<section className="text-wrap" id="eng">
           <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#russ">read rus</Link>
 
          
       <div>
       
-<h1 className="mb-8 text-2xl font-medium tracking-tight">
+<h3 className="mb-8 tracking-tight">
   Hi, I'm Ivan Goncharov!
-</h1>
+</h3>
 
 I develop server-side applications in Python and specialize in building REST APIs for businesses.  
 I have experience in commercial development and have worked on projects focused on backend system design and optimization, as well as infrastructure tasks.<br/>
 
-<pre className="prose prose-neutral dark:prose-invert ">
+<pre className="prose prose-neutral dark:prose-invert p-4 text-wrap ">
 My main stack: <br/>
 Python, FastAPI, Docker, MQ, <br/>
 Relational Databases, SQLAlchemy. <br/>
@@ -56,7 +56,7 @@ React / Next.js / Tailwind and more.<br/>
 
 <p>If you’re looking for a developer, I’d be happy to contact!</p>
 
-<pre className="prose prose-neutral dark:prose-invert ">
+<pre className="prose prose-neutral dark:prose-invert text-wrap">
 <h3>I build with React/Next.js and Tailwind</h3>
 
 <p className="text-sm">This [what you're viewing] is built with <Link href="https://ivan-telepop.github.io/hidden-garden/">React / Next.js / Tailwind CSS</Link></p>
@@ -117,9 +117,9 @@ React / Next.js / Tailwind and more.<br/>
 <hr/>
 <section id="russ">
 <Link className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500" href="#eng">read eng</Link>
-<h1 className="mb-8 text-2xl font-medium tracking-tight">
+<h3 className="mb-8 tracking-tight">
         Привет, я Иван Гончаров!
-</h1>
+</h3>
 <p>
   Друзья, в настоящий момент я ищу себе вакансию (или частичную занятость) бекенд разработчика или сетевого инжинера с навыками инжинера слаботочных систем ! 
   <p>Буду благодарен за вашу протекцию, передачу информации обо мне, и любую помощю в поиске мне занятости.</p>
@@ -138,11 +138,13 @@ React / Next.js / Tailwind and more.<br/>
 
 
 
-<pre className="prose prose-neutral dark:prose-invert ">
+<pre className="prose prose-neutral dark:prose-invert text-wrap">
 Мой основной стек: <br/>
 Python, FastAPI, Django, Docker<br/>
 Relational Databases, SQLAlchemy. <br/>
-Одно из основных моих приемуществ я увлечен своим делом и постоянно изучаю технологические новинки и хорошо разбираюсь в Open Source & технологиях.  <br/>
+Одно из основных моих приемуществ я увлечен своим делом 
+и постоянно изучаю технологические новинки и хорошо разбираюсь 
+в Open Source & технологиях.  <br/>
  <br/>
 Есть опыт работы с моделями LLM <br/> 
 Ollama, LangChain, OpenAI <br/>
@@ -153,12 +155,13 @@ React / Next.js / Tailwind и др.<br/>
 
 <p>Предпочитаю чистый, поддерживаемый код и всегда стараюсь писать его с учетом лучших практик. Учусь и сейчас, 
 изучаю новые технологии и инструменты, чтобы быть эффективнее в работе. Спокойный, исполнительный, 
-дружелюбный – умею работать как самостоятельно, так и в команде. В то же время скромен, уважаю чужую точку зрения, личное пространство.
+дружелюбный – умею работать как самостоятельно, так и в команде. 
+В то же время скромен, уважаю чужую точку зрения, личное пространство.
 </p>
 <p>Буду рад если по достоинству оцените мои навыки !</p>
 
 
-<pre>
+<pre className="text-wrap prose prose-neutral dark:prose-invert">
 <p>
   
 <p>Книги которые повлияли:</p>
@@ -231,7 +234,7 @@ React / Next.js / Tailwind и др.<br/>
 
 
       {/* <VideoYoutube></VideoYoutube> */}
-<pre className="prose prose-neutral dark:prose-invert ">
+<pre className="prose prose-neutral dark:prose-invert text-wrap">
 <h3>Этот сайт разработан на React/Next.js и Tailwind </h3>
 <p className="text-sm">Этот [вы смотрите] написан на <Link href="https://ivan-telepop.github.io/hidden-garden/"> React / Next.js / Tailwind CSS</Link></p>
         <p>
@@ -245,7 +248,7 @@ React / Next.js / Tailwind и др.<br/>
   <br/>
   <br/>
   <br/>
-  <pre>
+  <pre className="text-wrap">
     <i className="text-sm from-slate-500 pt-20">Буду рад сотрудничеству. <br/>Разработаю для вас и вашего бизнеса что нибудь очень полезное!<br/>
      <Link href='https://t.me/yaprogrammertrue'>Kанал в телеграм в котором собираю информацию про то что самому интереснов сфере IT.</Link></i>
   </pre>

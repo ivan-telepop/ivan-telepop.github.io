@@ -56,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="alternate"
           type="application/rss+xml"
