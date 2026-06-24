@@ -149,7 +149,7 @@ Relational Databases, SQLAlchemy. <br/>
 Есть опыт работы с моделями LLM <br/> 
 Ollama, LangChain, OpenAI <br/>
 RAG / Function Calling / Completions. <br/>
-<p>Есть знания<Link href="https://t.me/ewanG808" className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500">frontend</Link></p> <br/>
+<p>Есть знания<Link href="https://t.me/telepopchik" className=" p-1 no-underline bg-emerald-400 dark:bg-blue-500">frontend</Link></p> <br/>
 React / Next.js / Tailwind и др.<br/>
 </pre>
 
