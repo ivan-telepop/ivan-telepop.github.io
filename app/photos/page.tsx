@@ -17,32 +17,32 @@ export default function Photos() {
           {
             src: "/pics/plane.jpg",
             alt: "Posing well",
-            href: "https://ableton.com",
+            href: "https://github.com/ivan-telepop",
           },
           {
             src: "/pics/ableton.png",
             alt: "Home Studio",
-            href: "https://mixcult.bandcamp.com/album/self-object-id-ep",
+            href: "https://github.com/ivan-telepop",
           },          
           {
-            src: "/pics/tree.jpg",
+            src: "/pics/tree.png",
             alt: "tree",
-            href: "https://github.com/ivanIStereotekk",
+            href: "https://github.com/ivan-telepop",
           },
           {
             src: "/pics/studio.jpg",
             alt: "tree",
-            href: "https://github.com/ivanIStereotekk",
+            href: "https://github.com/ivan-telepop",
           },
           {
             src: "/pics/vs-code.png",
             alt: "tree",
-            href: "https://github.com/ivanIStereotekk",
+            href: "https://github.com/ivan-telepop",
           },
           {
-            src: "/pics/fastapi.jpg",
+            src: "/pics/fastapi.png",
             alt: "workspace",
-            href: "https://github.com/ivanIStereotekk",
+            href: "https://github.com/ivan-telepop",
           },
         ]}
       />
@@ -50,11 +50,11 @@ export default function Photos() {
       <ImageGrid
         columns={4}
         images={[
-          { src: "/pics/fastapi.jpg", alt: "Posing" },
+          { src: "/pics/fastapi.png", alt: "Posing" },
           { src: "/pics/ableton.png",alt: "Ivan" },
           { src: "/pics/vs-code.png", alt: "VS-Code" },
           { src: "/pics/glasses.jpg", alt: "Tree" },
-          { src: "/pics/fastapi.jpg", alt: "Studio" },
+          { src: "/pics/fastapi.png", alt: "Studio" },
           { src: "/pics/plane.jpg", alt: "Ableton" },
           { src: "/pics/studio.jpg", alt: "VS-Code" },
           { src: "/pics/tree.png", alt: "Plane" },
@@ -65,7 +65,7 @@ export default function Photos() {
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/fastapi.jpg", alt: "***" },
+          { src: "/photos/fastapi.png", alt: "workspace" },
           { src: "/photos/ableton.png", alt: "me" },
           { src: "/photos/vs-code.png", alt: "eq" },
           { src: "/photos/studio.jpg", alt: "Plane" },
