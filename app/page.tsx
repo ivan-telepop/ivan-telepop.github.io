@@ -68,7 +68,7 @@ React / Next.js / Tailwind and more.<br/>
 
 <p>
   English Version of my{" "}
-  <Link href="https://drive.google.com/file/d/1ijaxeUeIbSH7eeQ3xYlh-t5x3-tjw9cA/view?usp=sharing">Curriculum Vitae (CV).</Link>
+  <Link href="https://drive.google.com/file/d/1zessmDmvAQjYcHhb5sQ6dPG9x4gqghMR/view?usp=drive_link">Curriculum Vitae (CV).</Link>
 </p>
 
 <p>
@@ -191,7 +191,7 @@ React / Next.js / Tailwind и др.<br/>
 
         <p>
           Если у вас возникла необходимость ознакомится с моим опытом, то по этой ссылке вы найдете мое{" "}
-          <Link href="https://drive.google.com/file/d/1IPujfrH5gbzhbozvGYGeBct4tQnt3hP9/view?usp=sharing">РЕЗЮМЕ</Link>.
+          <Link href="https://drive.google.com/file/d/17vm9zorGdObLRW0dynrCl2_500Ienksz/view?usp=drive_link">РЕЗЮМЕ</Link>.
         </p>
         <p>
           Рекомендация с места работы{" "}
@@ -201,7 +201,7 @@ React / Next.js / Tailwind и др.<br/>
 
         <p>
           English Version of my {" "}
-          <Link href="https://docs.google.com/document/d/1QljPYQ8mr3IWT8JNPk9ZKqR9dtTTBKNJqq5565NNbHU/edit?usp=sharing">Curriculum Vitae (CV).</Link>.
+          <Link href="https://drive.google.com/file/d/1zessmDmvAQjYcHhb5sQ6dPG9x4gqghMR/view?usp=sharing">Curriculum Vitae (CV).</Link>.
         </p>
         <p>
           Если вам понадобится мой репозиторий в{" "}

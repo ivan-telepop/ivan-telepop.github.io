@@ -21,27 +21,27 @@ export default function Photos() {
           },
           {
             src: "/pics/ableton.png",
-            alt: "Home Studio",
+            alt: "Ableton",
             href: "https://github.com/ivan-telepop",
           },          
           {
             src: "/pics/tree.png",
-            alt: "tree",
+            alt: "Yellow Tree",
             href: "https://github.com/ivan-telepop",
           },
           {
             src: "/pics/studio.jpg",
-            alt: "tree",
+            alt: "Ableton Live",
             href: "https://github.com/ivan-telepop",
           },
           {
             src: "/pics/vs-code.png",
-            alt: "tree",
+            alt: "Yellow Tree",
             href: "https://github.com/ivan-telepop",
           },
           {
             src: "/pics/fastapi.png",
-            alt: "workspace",
+            alt: "Fastapi workspace",
             href: "https://github.com/ivan-telepop",
           },
         ]}
@@ -50,26 +50,27 @@ export default function Photos() {
       <ImageGrid
         columns={4}
         images={[
-          { src: "/pics/fastapi.png", alt: "Posing" },
-          { src: "/pics/ableton.png",alt: "Ivan" },
+          { src: "/pics/fastapi.jpg", alt: "FastAPI" },
+          { src: "/pics/ableton.png",alt: "Ableton Live" },
           { src: "/pics/vs-code.png", alt: "VS-Code" },
-          { src: "/pics/glasses.jpg", alt: "Tree" },
-          { src: "/pics/fastapi.png", alt: "Studio" },
+          { src: "/pics/plane.jpg", alt: "Plane" },
+          { src: "/pics/fastapi.jpg", alt: "Studio" },
           { src: "/pics/plane.jpg", alt: "Ableton" },
           { src: "/pics/studio.jpg", alt: "VS-Code" },
           { src: "/pics/tree.png", alt: "Plane" },
-          { src: "/pics/vs-code.png", alt: "null" },
+          { src: "/pics/vs-code.png", alt: "VS-code" },
         ]}
       />
 
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/fastapi.png", alt: "workspace" },
-          { src: "/photos/ableton.png", alt: "me" },
-          { src: "/photos/vs-code.png", alt: "eq" },
-          { src: "/photos/studio.jpg", alt: "Plane" },
-          { src: "/photos/tree.png", alt: "Tree" },
+          { src: "/pics/fastapi.jpg", alt: "workspace" },
+          { src: "/pics/ableton.png", alt: "me" },
+          { src: "/pics/vs-code.png", alt: "eq" },
+          { src: "/pics/studio.jpg", alt: "Plane" },
+          { src: "/pics/tree.png", alt: "Tree" },
+          { src: "/pics/hunter-cv.png", alt: "The Man" },
         ]}
       />
     </section>
