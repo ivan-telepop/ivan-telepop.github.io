@@ -40,8 +40,8 @@ export default function Photos() {
             href: "https://github.com/ivan-telepop",
           },
           {
-            src: "/pics/fastapi.png",
-            alt: "Fastapi workspace",
+            src: "/pics/fastapi.jpg",
+            alt: "Workspace",
             href: "https://github.com/ivan-telepop",
           },
         ]}
