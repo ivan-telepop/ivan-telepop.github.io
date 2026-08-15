@@ -27,11 +27,10 @@ export default function AlertDialogGetContact(){
 					Contacts and phone number:
 				</AlertDialog.Title>
 				<AlertDialog.Description className="mb-5 mt-[15px] text-[15px] leading-normal text-mauve11">
-					<p>Telegram: <Link href={'https://t.me/@telepopchik'}> @ewanG808 </Link></p>
+					<p>Telegram: <Link href={'https://t.me/@telepopchik'}> @telepopchik </Link></p>
 					<p>Email: <Link href={'mailto:telepop.iv@gmail.com'}> telepop.iv@gmail.com</Link></p>
                     {/* <p>WatsApp: <Link href={'https://wa.me/+79855203082'}> +79855203082</Link></p> */}
-					<p>Mobile Phone 1: <Link href={'tel:+79185655234'}> +7-918-565-52-34</Link></p>
-                    <p>Mobile Phone 2: <Link href={'tel:+79855203082'}> +7-985-520-30-82</Link></p>
+                    <p>Mobile Phone 1: <Link href={'tel:+79855203082'}> +7-985-520-30-82</Link></p>
                     
 				</AlertDialog.Description>
 				<div className="flex justify-end gap-[25px]">
