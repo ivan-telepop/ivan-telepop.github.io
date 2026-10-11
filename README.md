@@ -16,3 +16,15 @@ Pages:
 
 Сайт разрабатывался на фреймворке Next.js
 
+
+gitdiagram:
+
+https://gitdiagram.com/ivan-telepop/ivan-telepop.github.io
+
+
+ <img width="200px" src="/public/diagram.png" alt="diagram"/>
+
+
+giingest:
+
+https://gitingest.com/ivan-telepop/ivan-telepop.github.io
